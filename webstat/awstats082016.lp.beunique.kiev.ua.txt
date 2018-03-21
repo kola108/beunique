@@ -1,0 +1,436 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201608 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.lp.beunique.kiev.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1999                
+POS_TIME 2682                
+POS_VISITOR 7925                
+POS_DAY 12224               
+POS_DOMAIN 3431                
+POS_LOGIN 3667                
+POS_ROBOT 3822                
+POS_WORMS 4076                
+POS_EMAILSENDER 4207                
+POS_EMAILRECEIVER 4350                
+POS_SESSION 12524               
+POS_SIDER 12730               
+POS_FILETYPES 4485                
+POS_DOWNLOADS 4811                
+POS_OS 4897                
+POS_BROWSER 5027                
+POS_SCREENSIZE 5622                
+POS_UNKNOWNREFERER 5696                
+POS_UNKNOWNREFERERBROWSER 5965                
+POS_ORIGIN 6088                
+POS_SEREFERRALS 6230                
+POS_PAGEREFS 6387                
+POS_SEARCHWORDS 6583                
+POS_KEYWORDS 7128                
+POS_MISC 2346                
+POS_ERRORS 7490                
+POS_CLUSTER 3523                
+POS_SIDER_404 7592                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160829115546 638 174824 20771554530664
+FirstTime 20160819173324
+LastTime 20160829115545
+LastUpdate 20160829120147 112 0 112 0 0
+TotalVisits 120                 
+TotalUnique 90                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 94                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 2 47507
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 1 2 48560
+4 0 0 0 1 30 3796408
+5 23 73 292998952 0 0 0
+6 9 34 211612376 0 22 3700428
+7 64 241 2120295182 0 0 0
+8 81 304 1183040220 0 2 391649
+9 75 248 1243033587 0 2 0
+10 141 511 2091647354 17 55 976137
+11 356 1222 5539644795 0 8 0
+12 395 1279 1542781771 0 30 4508361
+13 119 433 1485297837 0 2 137767
+14 36 135 882290519 0 0 0
+15 62 225 1313120063 0 0 0
+16 85 310 1519600996 0 0 0
+17 76 274 1997704026 9 18 84217
+18 180 599 4298793962 1 24 4483968
+19 52 175 1086862417 14 36 1617140
+20 9 34 211613429 0 2 86572
+21 1 2 48352 2 3 96912
+22 0 0 0 0 0 0
+23 0 0 0 2 3 96912
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1764 6099 14832481718
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+googlebot 89 1483037 20160829102136 0
+bot[\s_+:,\.\;\/\\-] 74 12262099 20160829102044 0
+yandex 6 1684546 20160828205814 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+eot 24 1628067 0 0
+css 1280 7601521 0 0
+png 2042 918703219 0 0
+ico 71 81650 0 0
+ttf 192 2886564 0 0
+woff 171 6325488 0 0
+woff2 1102 28603676 0 0
+php 42 0 0 0
+map 10 3905180 0 0
+mp4 38 13624646686 0 0
+html 223 9849879 0 0
+jpg 174 16683589 0 0
+js 730 6317261 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/video/landing.mp4 16 256 13829895624
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 545
+linuxandroid 1376
+winxp 2
+winnt 142
+Unknown 40
+linux 337
+winvista 111
+win7 3802
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 30
+chrome39.0.2171.93 37
+chrome50.0.2661.89 23
+chrome52.0.2743.116 3957
+chrome54.0.2837.0 35
+android 117
+chrome49.0.2623.105 20
+chrome40.0.2214.109 35
+samsung 2
+lg\- 34
+safari4.0.5 1
+chrome53.0.2785.70 35
+chrome49.0.2623.108 35
+chrome38.0.2125.102 35
+firefox47.0 65
+chrome51.0.2704.81 102
+chrome39.0.0.0 33
+chrome46.0.2490.76 134
+msie8.0 2
+chrome52.0.2743.82 35
+safari9.0 362
+chrome50.0.2661.94 70
+mozilla 122
+netscape5.0 2
+chrome51.0.2704.106 76
+chrome27.0.1453 130
+chrome52.0.2743.98 667
+safari8.0 34
+chrome49.0.2623.112 40
+Unknown 7
+safari 108
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(en-us)_AppleWebKit/537.36(KHTML,_like_Gecko;_Google-Adwords-DisplayAds-WebRender;)_Chrome/27.0.1453Safari/537.36 20160829103118
+Google-Adwords-DisplayAds 20160829103120
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Google-Adwords-DisplayAds 20160829103120
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 155 220
+From1 3 3
+From2 68 68
+From3 1 1
+From4 1537 6063
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 68 68
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.googleadservices.com/pagead/aclk 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc+%d0%ba%d1%83%d1%80%d1%81%d0%be%d0%b2+%d0%bc%d0%b0%d0%bd%d0%b8%d0%ba%d1%8e%d1%80%d0%b0 1
+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%be%d0%b5+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bc%d0%b0%d0%bd%d0%b8%d0%ba%d1%8e%d1%80%d0%b0 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bc%d0%b0%d0%bd%d0%b8%d0%ba%d1%8e%d1%80%d0%b0+%d0%ba%d0%b8%d0%b5%d0%b2 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 7
+%d0%bc%d0%b0%d0%bd%d0%b8%d0%ba%d1%8e%d1%80%d0%b0 3
+%d0%ba%d0%b8%d0%b5%d0%b2 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b 1
+%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5 1
+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%be%d0%b5 1
+%d0%ba%d1%83%d1%80%d1%81%d0%be%d0%b2 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 33 4639184
+404 18 3672
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 2
+/lp 9 -
+/robots.txt 9 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 94
+109.86.225.248 938 3224 5437136910 20160829115510 20160829113842 /fonts/FuturaPTDemi.woff2
+93.76.212.104 139 514 1568785805 20160826111136
+93.73.197.0 36 114 327451584 20160827115430
+93.73.233.160 19 72 288353552 20160827151158
+178.159.228.71 18 149 517498879 20160826183541
+91.142.174.53 14 41 313101925 20160827191533
+94.158.92.87 10 30 104619541 20160827123932
+88.81.252.86 10 37 191913804 20160828121429
+95.158.49.193 10 37 211660633 20160828093305
+212.22.221.248 10 38 211661781 20160829115545 20160829113419 /
+178.54.4.172 9 35 108987907 20160825180017
+66.249.83.169 2 6 519775 20160829103119
+46.133.46.180 9 34 6364491 20160827120032
+104.45.18.178 1 1 39681 20160822114709
+46.211.5.196 9 30 5126189 20160829095907
+91.215.8.27 9 35 108988960 20160827204821
+130.180.209.142 9 34 106684369 20160827190819
+37.73.160.125 9 34 6364491 20160828160818
+46.133.0.171 9 35 6363440 20160826083744
+37.73.212.247 9 34 6364491 20160828083019
+46.133.134.133 9 34 6364491 20160828162142
+66.102.6.168 8 14 3169398 20160819185051
+66.102.8.48 5 18 2853169 20160827054238
+66.102.8.56 1 8 2576452 20160827054238
+176.104.2.147 9 37 211613431 20160829073743
+66.102.6.84 4 12 91873405 20160827052229
+46.211.153.154 9 23 592758 20160829105616 20160829105504 /fonts/FuturaPTDemi.woff2
+176.37.9.7 9 35 108988960 20160828163931
+82.193.126.24 0 1 102624469 
+66.102.6.83 5 10 859564 20160827052229
+66.249.93.66 4 24 6010464 20160822133911
+66.102.6.172 3 10 5682711 20160819185050
+176.105.181.67 9 36 109054497 20160829083357
+66.249.93.168 2 11 104732094 20160826074746
+176.36.102.149 9 35 108988960 20160827080215
+66.249.93.165 3 11 2035523 20160826074746
+66.249.93.162 5 14 2268642 20160829103113
+109.95.49.222 2 6 196996863 20160828120853
+193.222.140.71 9 35 109061648 20160827113216
+188.163.2.146 9 36 109062798 20160827181944
+37.73.238.84 9 34 6364491 20160828153234
+46.133.148.27 7 20 511901 20160828160048
+212.80.35.115 9 35 108987812 20160826164343
+183.171.174.168 9 40 109747885 20160823135111
+176.38.131.114 9 36 191946864 20160826160542
+176.37.102.18 9 36 109054497 20160826181655
+37.57.245.246 9 35 108987907 20160826083316
+66.249.83.172 4 18 1826043 20160829103116
+23.101.61.176 1 1 39019 20160819173335
+66.102.9.176 4 11 286445 20160829103126
+31.128.88.124 9 35 109061648 20160829080537
+92.60.178.213 9 36 191929352 20160829073634
+82.193.119.125 9 35 108988960 20160827162610
+217.66.99.242 9 34 105547913 20160826085155
+178.93.138.252 9 35 108988960 20160827074842
+37.73.241.101 9 34 6363438 20160825173811
+37.73.229.9 9 34 6364491 20160828081226
+66.249.81.226 5 22 108595174 20160829114635 20160829114635 /fonts/FuturaPTDemi.woff2
+95.134.164.56 9 35 108987907 20160826063552
+178.150.224.67 9 36 109054497 20160827132324
+66.102.8.52 3 7 1305904 20160827054238
+93.73.34.169 9 35 108988960 20160827172851
+37.229.196.206 9 35 109061648 20160828125418
+46.133.158.15 9 24 616180 20160826094748
+77.122.110.20 0 2 102690006 
+178.150.55.172 9 35 108988960 20160828153814
+66.249.93.71 6 20 7206582 20160822133911
+46.211.3.153 1 2 48352 20160827211623
+66.102.6.176 3 15 105687732 20160819185051
+78.27.190.162 10 39 128285551 20160827191711
+150.70.188.166 1 1 48352 20160829114841 20160829114841 /
+66.249.81.229 7 21 759866 20160829114635 20160829114635 /fonts/FuturaPTLight.woff2
+94.76.125.162 9 36 109054497 20160828122406
+66.102.9.180 3 8 2142488 20160829103126
+109.108.82.234 9 37 109053446 20160826084627
+37.73.250.201 9 35 6364493 20160828183829
+188.163.2.168 9 35 108988960 20160826194250
+176.36.150.214 9 37 211613431 20160829075647
+66.102.6.85 5 20 105176707 20160827052229
+46.211.252.141 9 34 6364491 20160828132454
+66.249.83.166 4 13 5226233 20160829103116
+66.249.93.76 8 20 1131210 20160822133911
+93.74.56.11 0 2 102690006 
+37.57.221.3 9 34 6737391 20160828183116
+37.73.231.144 9 36 109062798 20160829103508
+212.90.62.10 9 35 108988960 20160826175105
+46.211.113.154 9 35 105829670 20160826074501
+46.219.208.191 0 2 102690006 
+150.70.188.167 1 1 48352 20160829073912
+66.249.81.223 6 27 108622880 20160829114635 20160829114634 /fonts/universityroman-webfont.woff2
+66.102.9.184 2 14 4008244 20160829103126
+212.90.62.112 10 37 109110000 20160828195413
+168.235.205.108 9 34 6438327 20160826183437
+176.37.248.7 10 41 314417326 20160827184155
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20160819 62 203 1095212400 6
+20160822 729 2391 5493142014 11
+20160823 83 307 1824054992 6
+20160825 142 511 3238383636 5
+20160826 246 887 5860162260 24
+20160827 186 654 4165027636 24
+20160828 156 569 2510158547 21
+20160829 160 577 2834244353 23
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 4
+2mn-5mn 4
+30s-2mn 4
+0s-30s 87
+15mn-30mn 6
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 35
+/ 223 9849879 102 19
+/fonts/icomoon.ttf 178 1701932 2 3
+/fonts/universityroman-webfont.woff2 158 3393208 1 1
+/fonts/FuturaPTBook.woff2 158 4660368 0 1
+/fonts/FuturaPTMedium.woff2 158 4741896 1 0
+/fonts/FuturaBookC.woff2 158 1512376 0 0
+/fonts/FuturaPTHeavy.woff2 157 4771544 1 3
+/fonts/FuturaPTLight.woff2 157 4729468 0 5
+/fonts/FuturaPTDemi.woff2 156 4794816 1 49
+/sendemail.php 29 0 0 3
+/fonts/FuturaPTLight.ttf 2 195096 0 0
+/fonts/FuturaPTMedium.eot 3 294972 0 0
+/fonts/FuturaBookC.eot 3 67290 1 0
+/fonts/FuturaPTHeavy.ttf 3 293700 0 0
+/css/bootstrap.css.map 10 3905180 1 1
+/fonts/FuturaPTDemi.woff 27 1184220 1 14
+/fonts/FuturaPTMedium.woff 24 1027488 1 0
+/fonts/FuturaPTLight.woff 25 1082200 2 4
+/fonts/FuturaPTBook.ttf 2 189616 0 0
+/fonts/universityroman-webfont.eot 3 71085 0 0
+/fonts/FuturaPTDemi.eot 3 293472 0 0
+/fonts/FuturaPTDemi.ttf 3 292896 0 0
+/fonts/icomoon.eot 3 28728 1 0
+/fonts/FuturaBookC.woff 22 287672 0 2
+/fonts/FuturaPTLight.eot 3 293232 0 0
+/fonts/FuturaPTHeavy.woff 25 1088000 1 4
+/fonts/universityroman-webfont.ttf 2 93008 0 1
+/fonts/FuturaPTHeavy.eot 3 294288 1 1
+/sendemail2.php 13 0 0 1
+/fonts/FuturaPTBook.woff 25 1050400 0 1
+/fonts/FuturaPTBook.eot 3 285000 1 0
+/fonts/FuturaPTMedium.ttf 1 98124 0 0
+/fonts/icomoon.woff 1 9924 0 0
+/fonts/universityroman-webfont.woff 22 595584 2 0
+/fonts/FuturaBookC.ttf 1 22192 0 0
+END_SIDER
