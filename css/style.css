@@ -1930,3 +1930,12 @@ input[type="radio"], input[type="checkbox"] {
 
 /* my new style css */
 
+.container{
+    padding: 0;
+}
+.submit-form{
+    background-color: #e65f83;
+}
+.graduate-work{
+    background-color: #f8d9dc;
+}
