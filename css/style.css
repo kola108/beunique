@@ -44,6 +44,17 @@ table {
 
 /* Fonts */
 @font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../fonts/HelveticaNeueCyr-Roman.eot');
+    src: local('../fonts/HelveticaNeueCyr-Roman'),
+    url('../fonts/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+    url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'university-romanmedium';
     src: url('../fonts/universityroman-webfont.eot');
     src: url('../fonts/universityroman-webfont.eot?#iefix') format('embedded-opentype'),
@@ -169,7 +180,6 @@ img {
 }
 .banner-number a {
     display: inline-block;
-    color: #141414;
     text-decoration: none;
 }
 .banner-info-text a {
@@ -1928,14 +1938,358 @@ input[type="radio"], input[type="checkbox"] {
     text-align: center;
 }
 
-/* my new style css */
+/* new style css */
 
 .container{
     padding: 0;
 }
+.registered--btn{
+    margin: 0;
+    border: none;
+}
+
+
+/*..........................baner..........................*/
+
+.banner {
+    background-image: url("../images/header-bg.jpg");
+}
+.header-info{
+    padding-top: 52px;
+}
+.block-title{
+    font-size: 36px;
+    color: #00a8ac;
+    padding-top: 130px;
+    margin-bottom: 11px;
+    font-family: 'Roboto', SansSerif;
+}
+
+.banner-number a,
+.banner-title-text,
+.banner-info-text,
+.banner-learn-more a
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-logo{
+    font-size: 4.5rem;
+    color: white;
+}
+.banner-logo .icon-babochka{
+    font-size: 2rem;
+    top: -14px;
+    color: white;
+}
+.banner-number{
+    font-size: 36px;
+    top: 0;
+    right: 0;
+}
+.banner-number:before{
+    content: '';
+    display: inline-block;
+    width: 28.3px;
+    height: 28.3px;
+    margin-right: 10px;
+    background-color: orange;
+}
+.banner-title-text{
+    font-size: 46px;
+    max-width: 672px;
+    text-align: left;
+    padding-top: 132px;
+    font-weight: bold;
+    line-height: 1.15;
+}
+
+.banner-info-text{
+    max-width: 540px;
+    text-align: left;
+    font-size: 24px;
+    padding: 78px 0 105px 0;
+}
+.banner-info-text:before{
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    width: 28px;
+    height: 39px;
+    background-color: orange;
+}
+
+.banner .learn-more-text{
+    background: none;
+    width: 370px;
+    height: 92px;
+    border: 1px solid white;
+    border-radius: 55.5px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.banner .learn-more-text:hover{
+    background-color: white;
+    color: #e65f83;
+}
+.banner-learn-more{
+    margin-bottom: 100px;
+}
+
+/*..........................course author block..........................*/
+
+.course-author-block{
+    background: url("../images/course-author-block-bg.png") no-repeat top center;
+    margin: 0;
+}
+
+.course-author-block .block-title{
+    text-align: left;
+}
+
+.course-author-content:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.course-author-left-content{
+    padding: 0 20px 0 15px;
+}
+.course-author-left-content p{
+    font-size: 16px;
+    color: #242b33;
+    line-height: 1.44;
+    font-family: "HelveticaNeueCyr", sans-serif;
+    padding-bottom: 26px;
+}
+
+.course-author-right-content{
+    position: relative;
+}
+.registered--btn{
+    margin: 60px 0 120px 0;
+}
+.course-author-block .learn-more-text{
+    width: 239px;
+    min-height: 42px;
+    color: #f54e60;
+    font-size: 15px;
+    border: 1px solid #f54e60;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+.course-author-block .learn-more-text:hover{
+    background-color: #f54e60;
+    color: white;
+}
+
+
+/*..........................course enroll..........................*/
+
+.course-enroll .container{
+    background: url("../images/course-enroll-bg.png") no-repeat center top;
+    padding-top: 100px;
+}
+.course-enroll .block-title{
+    margin-bottom: 88px;
+    padding-top: 65px;
+}
+.course-enroll-items{
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-size: 20px;
+    color: #242b33;
+    line-height: 1.15;
+    text-align: center;
+    margin-bottom: 88px;
+}
+.course-enroll-items:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.course-enroll-left-item, .course-enroll-right-item{
+    display: inline-block;
+    box-sizing: border-box;
+}
+.course-enroll-left-item{
+    float: left;
+    text-align: right;
+}
+.course-enroll-right-item{
+    float: right;
+    text-align: left;
+}
+.course-enroll-left-item p, .course-enroll-right-item p{
+    display: inline-block;
+ }
+.course-enroll-left-item:after, .course-enroll-right-item:before{
+    content: '';
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: orange;
+    padding-top: 1px;
+}
+.course-enroll-left-item:after{
+    margin-left: 10px;
+}
+.course-enroll-right-item:before{
+    margin-right: 10px;
+}
+.course-enroll-items:nth-child(1) .course-enroll-left-item{
+    margin-left: 225px;
+}
+.course-enroll-items:nth-child(1)
+.course-enroll-left-item p,
+.course-enroll-items:nth-child(1)
+.course-enroll-right-item p,
+.course-enroll-items:nth-child(3)
+.course-enroll-right-item p
+{
+    vertical-align: top;
+    padding-top: 7px;
+}
+.course-enroll-items:nth-child(1)
+.course-enroll-right-item{
+    margin-right: 200px;
+}
+.course-enroll-items:nth-child(2)
+.course-enroll-left-item{
+    margin-left: 90px;
+}
+.course-enroll-items:nth-child(2)
+.course-enroll-right-item{
+    margin-right: 153px;
+}.course-enroll-items:nth-child(3)
+ .course-enroll-left-item{
+    margin-left: 73px;
+}
+.course-enroll-items:nth-child(3)
+.course-enroll-right-item{
+    margin-right: 122px;
+}
+.course-enroll-items:nth-child(4)
+.course-enroll-left-item{
+    margin-left: 76px;
+}
+.course-enroll-items:nth-child(4)
+.course-enroll-right-item{
+    margin-right: 163px;
+}
+
+
+.course-enroll-warning-bottom{
+    padding: 20px 0 62px 0;
+    text-align: left;
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-size: 16px;
+    color: #242b33;
+    line-height: 1.44;
+    max-width: 642px;
+    margin: 0 auto;
+    position: relative;
+  }
+.course-enroll-warning-bottom:before{
+    content: '';
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    left: -50px;
+    top: 26px;
+    background-color: orange;
+    position: absolute;
+}
+.course-enroll-warning-text{
+    color: #f54e60;
+    text-transform: uppercase;
+}
+
+/*..........................about courses..........................*/
+.about-courses{
+    padding: 177px 0 138px 0;
+}
+
+.about-courses-left-content{
+    text-align: center;
+}
+.about-courses-img-box{
+    height: auto;
+    width: auto;
+    max-width: 493px;
+    display: inline-block;
+}
+
+.about-courses-right-content{
+    text-align: left;
+    padding-left: 111px;
+}
+.about-courses-right-content .block-title{
+    padding: 0;
+    text-align: left;
+    margin-bottom: 31px;
+}
+.about-courses-right-content-items{
+    font-size: 16px;
+    font-family: "HelveticaNeueCyr", sans-serif;
+    line-height: 1.44;
+    color: #242b33;
+    margin-bottom: 38px;
+    display: inline-block;
+    position: relative;
+}
+.about-courses-right-content-items:last-child{
+    margin-bottom: 0;
+}
+
+.about-courses-right-content-items p{
+    margin-bottom: 10px;
+}
+.about-courses-red-text{
+    color: #f54e60;
+}
+
+.about-courses-right-content-items:nth-child(3) .about-courses-red-text{
+    font-weight: bold;
+}
+
+.about-courses-right-content-items:nth-child(2):before{
+    content: '';
+    display: inline-block;
+    width: 31px;
+    height: 40px;
+    background-color: orange;
+    position: absolute;
+    top: 3px;
+    left: -60px;
+}
+.about-courses-right-content-items:nth-child(3):before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    left: -60px;
+}
+.about-courses-right-content-items:nth-child(4):before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    position: absolute;
+    top: -10px;
+    left: -60px;
+}
+
+/*..........................submit form..........................*/
+
 .submit-form{
     background-color: #e65f83;
 }
 .graduate-work{
     background-color: #f8d9dc;
 }
+
