@@ -1,32 +1,3 @@
-function equiv(){
-    jQuery.fn.equivalent = function (){
-        blocks = jQuery(this);
-        maxH    = blocks.eq(0).height();
-        blocks.each(function(){
-            maxH = ( jQuery(this).height() > maxH ) ? jQuery(this).height() : maxH;
-        });
-        blocks.height(maxH);
-    };
-    jQuery('.cost-it .col-md-4 .money-title-height').height('auto').equivalent();
-    jQuery('.cost-it .col-md-4 .manicure-block').height('auto').equivalent();
-    jQuery('.cost-it .col-md-4 .manicure-script-h').height('auto').equivalent();
-    jQuery('.cost-it .col-md-4 .ul-script-height').height('auto').equivalent();
-    jQuery('.course-enroll .col-md-3').height('auto').equivalent();
-    jQuery('.course-enroll .mini-group-title').height('auto').equivalent();
-    jQuery('.course-enroll .mini-group-text').height('auto').equivalent();
-    jQuery('.cost-it .manicure-title').height('auto').equivalent();
-    jQuery('.author-achievements .author-achievements-block1').height('auto').equivalent();
-    jQuery('.manicure-title').height('auto').equivalent();
-}
-
-function adaptiveManicureBlock() {
-    if(jQuery(window).width() < 991){
-        jQuery('.cost-it .col-md-4 .money-title-height').height('auto');
-        jQuery('.cost-it .col-md-4 .manicure-block').height('auto');
-        jQuery('.cost-it .col-md-4 .manicure-script-h').height('auto');
-        jQuery('.cost-it .col-md-4 .ul-script-height').height('auto');
-    }
-}
 
 function mapCover(){
     var time = 1000;
@@ -50,9 +21,7 @@ function mapCover(){
 }
 
 jQuery(window).on('load resize', function(){
-    equiv();
-    mapCover();
-    adaptiveManicureBlock();
+      mapCover();
 });
 
 jQuery(document).ready(function() {
@@ -79,10 +48,6 @@ jQuery(document).ready(function(){
         jQuery("#landing-video").get(0).play();
     });
 
-    jQuery('.header-bottom').on('click',function(){
-        jQuery("html, body").animate({ scrollTop: jQuery('#course-author-id').height() }, 1000);
-         return false;
-    });
     jQuery('.footer-arrow').on('click',function(){
         jQuery("html, body").animate({ scrollTop: 0 }, 1000);
         return false;

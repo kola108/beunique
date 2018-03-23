@@ -239,38 +239,21 @@ img {
     width: -moz-calc(100% - 40px);
     width: calc(100% - 40px);
 }
-.learn-more-text {
-    min-height: 84px;
-    width: 372px;
-    /*text-align: center;*/
-    font-size: 3rem;
-    background-color: #fff;
-    /*padding: 21px;*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: -ms-flexbox;
-    font-family: 'FuturaBookC';
-    -ms-flex-pack: center;
-    -ms-flex-align: center;
-}
 .learn-more-text:hover {
     background-color: #00aaae;
 }
 .banner-learn-more {
-    display: inline-block;
+    display: block;
     margin-bottom: 70px;
 }
 .banner .row {
     margin-bottom: 8.1%;
 }
 .banner-learn-more a {
-    display: block;
-    float: left;
+    display: inline-block;
     color: #141414;
+    max-width: 349px;
+    width: 100%;
     margin-bottom: 30px;
 }
 .banner-learn-more a:hover {
@@ -911,9 +894,6 @@ img {
     font-family: 'FuturaPTBook';
 }
 .form-contacts:focus {
-    border: 1px solid #00595b !important;
-    /*box-shadow: 1px 1px 1px #00595b;*/
-    min-height: 52px;
     font-family: 'FuturaPTBook';
     font-size: 2rem;
     color: #141414;
@@ -923,7 +903,6 @@ img {
     min-height: 52px;
 }
 .contacts .form-control:focus {
-    min-height: 52px;
     border: none;
 }
 
@@ -1990,10 +1969,12 @@ input[type="radio"], input[type="checkbox"] {
 .banner-number:before{
     content: '';
     display: inline-block;
-    width: 28.3px;
-    height: 28.3px;
+    width: 29px;
+    height: 29px;
     margin-right: 10px;
-    background-color: orange;
+    background-image: url(../images/sprite.png);
+    background-position: -118px -20px;
+    background-repeat: no-repeat;
 }
 .banner-title-text{
     font-size: 46px;
@@ -2009,6 +1990,7 @@ input[type="radio"], input[type="checkbox"] {
     text-align: left;
     font-size: 24px;
     padding: 78px 0 105px 0;
+    /*padding: 6.7% 0 9% 0;*/
 }
 .banner-info-text:before{
     content: '';
@@ -2021,16 +2003,20 @@ input[type="radio"], input[type="checkbox"] {
 
 .banner .learn-more-text{
     background: none;
-    width: 370px;
-    height: 92px;
-    border: 1px solid white;
-    border-radius: 55.5px;
+    max-width: 349px;
+    width: 100%;
+    display: block;
+    height: 90px;
+    border: 3px solid white;
+    border-radius: 45px;
     font-size: 18px;
     text-transform: uppercase;
+    line-height: 84px;
+    text-align: center;
 }
 .banner .learn-more-text:hover{
     background-color: white;
-    color: #e65f83;
+    color: #e65f83;;
 }
 .banner-learn-more{
     margin-bottom: 100px;
@@ -2111,6 +2097,7 @@ input[type="radio"], input[type="checkbox"] {
 .course-enroll-left-item, .course-enroll-right-item{
     display: inline-block;
     box-sizing: border-box;
+    width: 50%;
 }
 .course-enroll-left-item{
     float: left;
@@ -2138,7 +2125,7 @@ input[type="radio"], input[type="checkbox"] {
     margin-right: 10px;
 }
 .course-enroll-items:nth-child(1) .course-enroll-left-item{
-    margin-left: 225px;
+    padding-right: 175px;
 }
 .course-enroll-items:nth-child(1)
 .course-enroll-left-item p,
@@ -2150,33 +2137,39 @@ input[type="radio"], input[type="checkbox"] {
     vertical-align: top;
     padding-top: 7px;
 }
+
+
+
 .course-enroll-items:nth-child(1)
 .course-enroll-right-item{
-    margin-right: 200px;
+    padding-left: 85px;
 }
+
 .course-enroll-items:nth-child(2)
 .course-enroll-left-item{
-    margin-left: 90px;
+    padding-right: 270px;
 }
 .course-enroll-items:nth-child(2)
 .course-enroll-right-item{
-    margin-right: 153px;
-}.course-enroll-items:nth-child(3)
- .course-enroll-left-item{
-    margin-left: 73px;
+    padding-left: 180px;
+}
+.course-enroll-items:nth-child(3)
+.course-enroll-left-item{
+     padding-right: 265px;
 }
 .course-enroll-items:nth-child(3)
 .course-enroll-right-item{
-    margin-right: 122px;
+    padding-left: 180px;
 }
 .course-enroll-items:nth-child(4)
 .course-enroll-left-item{
-    margin-left: 76px;
+    padding-right: 175px;
 }
 .course-enroll-items:nth-child(4)
 .course-enroll-right-item{
-    margin-right: 163px;
+    padding-left: 80px;
 }
+
 
 
 .course-enroll-warning-bottom{
@@ -2284,12 +2277,172 @@ input[type="radio"], input[type="checkbox"] {
     left: -60px;
 }
 
+/*..........................cost it..........................*/
+
+.cost-it{
+    background-color: #f8d9dc;
+    background-image: none;
+}
+.cost-it .container{
+    padding-bottom: 171px;
+}
+
+.cost-it .col-md-4{
+    background: none;
+    border: none;
+}
+
+/*.cost-it .col-md-4:last-child .money-title{
+    background-color: red;
+}*/
+
+.cost-it .block-title{
+    margin-bottom: 58px;
+}
+.manicure-title{
+    font-size: 24px;
+    line-height: 0.83;
+    font-family: "HelveticaNeueCyr", sans-serif;
+    color: #f54e60;
+    margin-bottom: 0;
+}
+.cost-it .col-md-4 ul{
+    width: 96%;
+}
+.cost-it .col-md-4 ul li{
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-size: 16px;
+    line-height: 1.13;
+    color: #242b33;
+    padding: 20px 0 0 10px;
+}
+.cost-it-text{
+    font-size: 16px;
+    line-height: 1.13;
+}
+.cost-it-red-text{
+    color: #f54e60;
+    text-transform: uppercase;
+}
+.money-title{
+    margin-top: 27px;
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-size: 24px;
+    line-height: 1.67;
+    color: #242b33;
+}
+.money-red-color, .money-red-text{
+    color: #f54e60;
+    line-height: 1.11;
+    font-weight: bold;
+    display: block;
+}
+.money-red-color{
+    font-size: 36px;
+}
+.money-red-text{
+    font-size: 18px;
+    padding-top: 36px;
+}
+.money-red-text:first-child{
+    padding-top: 24px;
+}
+
 /*..........................submit form..........................*/
 
 .submit-form{
     background-color: #e65f83;
 }
+
+.submit-form .block-title{
+    color: white;
+    padding-top: 40px;
+}
+
+.important-text{
+    text-align: center;
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-size: 16px;
+    line-height: 0.75;
+    color: #faebed;
+    padding-bottom: 20px;
+}
+#kurseCallBack{
+    margin: 52px 0 87px 0;
+}
+.form-title{
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.66);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: all 1s ease;
+}
+.form-group{
+    margin-bottom: 0;
+    position: relative;
+    height: 80px;
+}
+
+.form-group input:focus{
+    box-shadow: none;
+    border-color: #fff;
+}
+.form-control{
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    min-height: 35px;
+}
+
+.submit-form .btn{
+    background: none;
+    font-size: 15px;
+    border: 1px solid white;
+    line-height: 1.53;
+    border-radius: 40px;
+    text-transform: uppercase;
+    width: 239px;
+    height: 42px;
+}
+
+.submit-form .btn:hover{
+    color: #e65f83;
+    background-color: white;
+}
+.form-control{
+    position: absolute;
+    color: white;
+    padding: 0;
+    bottom: 0;
+    left: 0;
+}
+.form-control:focus{
+    border-bottom: 2px solid white;
+}
+.form-control:focus+.form-title,
+.form-control:hover+.form-title
+{
+    top: 12px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.61);
+}
+.form-control:focus,
+.form-control:hover{
+     border-bottom: 2px solid white;
+ }
+
+
+
+
+/*..........................graduate work ..........................*/
+
 .graduate-work{
     background-color: #f8d9dc;
 }
 
+/*the end*/
