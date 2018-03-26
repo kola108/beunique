@@ -54,78 +54,6 @@ table {
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'university-romanmedium';
-    src: url('../fonts/universityroman-webfont.eot');
-    src: url('../fonts/universityroman-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/universityroman-webfont.woff2') format('woff2'),
-    url('../fonts/universityroman-webfont.woff') format('woff'),
-    url('../fonts/universityroman-webfont.ttf') format('truetype'),
-    url('../fonts/universityroman-webfont.svg#university-romanmedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'FuturaPTHeavy';
-    src: url('../fonts/FuturaPTHeavy.eot');
-    src: url('../fonts/FuturaPTHeavy.eot') format('embedded-opentype'),
-    url('../fonts/FuturaPTHeavy.woff2') format('woff2'),
-    url('../fonts/FuturaPTHeavy.woff') format('woff'),
-    url('../fonts/FuturaPTHeavy.ttf') format('truetype'),
-    url('../fonts/FuturaPTHeavy.svg#FuturaPTHeavy') format('svg');
-}
-
-@font-face {
-    font-family: 'FuturaPTBook';
-    src: url('../fonts/FuturaPTBook.eot');
-    src: url('../fonts/FuturaPTBook.eot') format('embedded-opentype'),
-    url('../fonts/FuturaPTBook.woff2') format('woff2'),
-    url('../fonts/FuturaPTBook.woff') format('woff'),
-    url('../fonts/FuturaPTBook.ttf') format('truetype'),
-    url('../fonts/FuturaPTBook.svg#FuturaPTBook') format('svg');
-}
-
-@font-face {
-    font-family: 'FuturaPTLight';
-    src: url('../fonts/FuturaPTLight.eot');
-    src: url('../fonts/FuturaPTLight.eot') format('embedded-opentype'),
-    url('../fonts/FuturaPTLight.woff2') format('woff2'),
-    url('../fonts/FuturaPTLight.woff') format('woff'),
-    url('../fonts/FuturaPTLight.ttf') format('truetype'),
-    url('../fonts/FuturaPTLight.svg#FuturaPTLight') format('svg');
-}
-
-@font-face {
-    font-family: 'FuturaPTDemi';
-    src: url('../fonts/FuturaPTDemi.eot');
-    src: url('../fonts/FuturaPTDemi.eot') format('embedded-opentype'),
-    url('../fonts/FuturaPTDemi.woff2') format('woff2'),
-    url('../fonts/FuturaPTDemi.woff') format('woff'),
-    url('../fonts/FuturaPTDemi.ttf') format('truetype'),
-    url('../fonts/FuturaPTDemi.svg#FuturaPTDemi') format('svg');
-}
-
-@font-face {
-    font-family: 'FuturaPTMedium';
-    src: url('../fonts/FuturaPTMedium.eot');
-    src: url('../fonts/FuturaPTMedium.eot') format('embedded-opentype'),
-    url('../fonts/FuturaPTMedium.woff2') format('woff2'),
-    url('../fonts/FuturaPTMedium.woff') format('woff'),
-    url('../fonts/FuturaPTMedium.ttf') format('truetype'),
-    url('../fonts/FuturaPTMedium.svg#FuturaPTMedium') format('svg');
-}
-@font-face {
-    font-family: 'FuturaBookC';
-    src: url('../fonts/FuturaBookC.eot');
-    src: url('../fonts/FuturaBookC.eot') format('embedded-opentype'),
-    url('../fonts/FuturaBookC.woff2') format('woff2'),
-    url('../fonts/FuturaBookC.woff') format('woff'),
-    url('../fonts/FuturaBookC.ttf') format('truetype'),
-    url('../fonts/FuturaBookC.svg#FuturaBookC') format('svg');
-}
-
-
 
 
 /* End Fonts */
@@ -154,8 +82,7 @@ img {
 }
 .banner-logo {
     display: inline-block;
-    font-family: 'university-romanmedium';
-    font-size: 7.5rem;
+       font-size: 7.5rem;
 }
 .banner-logo-blue {
     color: #00aaae;
@@ -173,7 +100,6 @@ img {
     display: inline-block;
     color: #141414;
     font-size: 4.1rem;
-    font-family: 'FuturaBookC';
     position: relative;
     top: 36px;
     right: 35px;
@@ -195,7 +121,6 @@ img {
 .banner-title-text {
     font-size: 6rem;
     /*text-align: left;*/
-    font-family: 'FuturaPTMedium';
     color: #141414;
     line-height: 1;
     text-align: center;
@@ -203,7 +128,6 @@ img {
 .banner-info-text-top {
     font-size: 2.8rem;
     /*text-align: left;*/
-    font-family: 'FuturaPTBook';
     color: #141414;
     padding-bottom: 10px;
     padding-top: 70px;
@@ -213,14 +137,12 @@ img {
     font-size: 2.8rem;
     /*text-align: left;*/
     text-align: center;
-    font-family: 'FuturaPTBook';
     color: #141414;
     padding-top: 10px;
     padding-bottom: 55px;
 }
 .info-author-text p {
     font-size: 2rem;
-    font-family: 'FuturaPTMedium';
 }
 .info-author-text p.info-author-textB {
     color: #737373;
@@ -252,7 +174,6 @@ img {
 .banner-learn-more a {
     display: inline-block;
     color: #141414;
-    max-width: 349px;
     width: 100%;
     margin-bottom: 30px;
 }
@@ -268,13 +189,6 @@ img {
     min-height: 84px;
     width: 67px;
     background-color: #00aaae;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: -ms-flexbox;
     color: #141414;
 }
 .icon-arrow-rightt {
@@ -290,14 +204,12 @@ img {
 .future-masters-title {
     font-size: 2rem;
     text-align: center;
-    font-family: 'FuturaPTHeavy';
     color: #141414;
 }
 
 .future-masters-text {
     font-size: 2rem;
     text-align: center;
-    font-family: 'FuturaPTLight';
     color: #141414;
     padding-left: 10px;
     padding-right: 10px;
@@ -360,8 +272,7 @@ img {
     color: #141414;
     text-align: center;
     font-size: 5rem;
-    font-family: 'FuturaPTMedium';
-    padding-top: 80px;
+     padding-top: 80px;
     margin-bottom: 40px;
 }
 .author-video-block {
@@ -372,13 +283,11 @@ img {
     font-size: 2rem;
     text-align: left;
     padding-bottom: 30px;
-    font-family: 'FuturaPTHeavy';
 }
 .info-author-text {
     color: #141414;
     font-size: 2rem;
     text-align: left;
-    font-family: 'FuturaPTLight';
 }
 
 .author-video-circle {
@@ -430,14 +339,6 @@ img {
     margin-bottom: 19px;
     width: 564px;
     height: 136px;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: -ms-flexbox;
-    font-family: 'FuturaPTDemi';
 }
 .author-achievements-img {
     position: absolute;
@@ -461,14 +362,12 @@ img {
 .mini-group-title {
     text-align: center;
     font-size: 2rem;
-    font-family: 'FuturaPTHeavy';
     color: #141414;
     margin-bottom: 10px;
 }
 .mini-group-text {
     font-size: 2rem;
     text-align: center;
-    font-family: 'FuturaPTLight';
     color: #141414;
     /*margin-bottom: 30px;*/
     padding-bottom: 30px;
@@ -494,7 +393,6 @@ img {
     font-size: 3rem;
     background-color: #fff;
     padding: 21px;
-    font-family: 'FuturaBookC';
 }
 
 .want-enroll-block {
@@ -508,7 +406,6 @@ img {
     text-align: center;
     font-size: 2rem;
     color: #141414;
-    font-family: 'FuturaBookC';
     margin-bottom: 40px;
 }
 
@@ -517,11 +414,6 @@ img {
     margin-bottom: 25px;
 }
 .schedule .row {
-    display: flex;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
 }
 
 .img-schedule-day {
@@ -542,13 +434,7 @@ img {
     float: left;
     border: 1px solid #dddddd;
     border-right: 1px solid transparent;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: -ms-flexbox;
+
 
 }
 
@@ -560,27 +446,17 @@ img {
     float: left;
     border: 1px solid #dddddd;
     font-size: 2.4rem;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: -ms-flexbox;
-    font-family: 'FuturaPTLight';
     color: #141414;
 }
 .day-title-info {
     text-align: center;
     font-size: 2.4rem;
     color: #141414;
-    font-family: 'FuturaPTLight';
 }
 .day-title-text {
     text-align: center;
     font-size: 3.6rem;
     color: #141414;
-    font-family: 'FuturaPTDemi';
 }
 
 
@@ -598,14 +474,12 @@ img {
     text-align: center;
     font-size: 2rem;
     /*font-size: 1.8rem;*/
-    font-family: 'FuturaPTBook';
     color: #141414;
 }
 
 .nearest-date-number {
     text-align: center;
     font-size: 3.6rem;
-    font-family: 'FuturaPTBook';
     color: #141414;
     margin-bottom: 40px;
 }
@@ -617,13 +491,6 @@ img {
     width: 48px;
 }
 .nearest-date-flex-block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: -ms-flexbox;
     min-height: 84px;
     width: 100%;
     background-color: #00aaae;
@@ -639,7 +506,6 @@ img {
     float: left;
     font-size: 3rem;
     margin-right: 10px;
-    font-family: 'FuturaBookC';
 }
 .nearest-date a {
     color: #fff;
@@ -660,15 +526,6 @@ img {
     min-height: 84px;
     width: 100%;
     font-size: 3.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: -ms-flexbox;
-    flex-wrap: wrap; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap;
-    font-family: 'FuturaPTLight';
     color: #141414;
 }
 .nearest-enroll-data p {
@@ -695,14 +552,12 @@ img {
 .cost-it-info {
     font-size: 2rem;
     text-align: center;
-    font-family: 'FuturaPTBook';
     color: #141414;
 }
 
 .manicure-title {
     font-size: 2rem;
     text-align: center;
-    font-family: 'FuturaPTDemi';
     color: #141414;
     margin-bottom: 15px;
 }
@@ -740,7 +595,6 @@ img {
 .cost-it .col-md-4 ul li {
     text-align: left;
     font-size: 2rem;
-    font-family: 'FuturaPTLight';
     color: #141414;
 }
 .cost-it .col-md-4 ul {
@@ -755,7 +609,6 @@ img {
 
 .manicure-title-text {
     font-size: 1.8rem;
-    font-family: 'FuturaPTBook';
     color: #141414;
     margin-top: 5px;
     line-height: 1;
@@ -765,14 +618,12 @@ img {
 
 .manicure-title-info {
     font-size: 2rem;
-    font-family: 'FuturaPTLight';
     color: #141414;
     margin-top: 10px;
 }
 
 .manicure-bonus {
     font-size: 2.4rem;
-    font-family: 'FuturaPTBook';
     color: #141414;
     padding-bottom: 15px;
     padding-top: 25px;
@@ -780,7 +631,6 @@ img {
 
 .money-title {
     font-size: 3.5rem;
-    font-family: 'FuturaPTMedium';
     color: #141414;
 }
 
@@ -800,14 +650,6 @@ img {
     color: #fff;
     background-color: #00aaae;
     font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: -ms-flexbox;
-    font-family: 'FuturaBookC';
     margin-bottom: 15px;
 }
 .manicure-icon-arrow {
@@ -818,13 +660,6 @@ img {
     background-color: #73d0d3;
     color: #fff;
     min-height: 69px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: -ms-flexbox;
 }
 .training-spa {
     font-size: 2rem;
@@ -837,25 +672,21 @@ img {
 .akcia {
     font-size: 30px;
     color: #fc8692;
-    font-family: 'FuturaPTMedium';
 }
 
 .arrivals {
     font-size: 1.4rem;
-    font-family: 'FuturaPTLight';
     color: #141414;
 }
 
 .money-9k {
     text-decoration: line-through;
     font-size: 1.6rem;
-    font-family: 'FuturaPTMedium';
     color: #141414;
 }
 
 .money-8k {
     font-size: 2.4rem;
-    font-family: 'FuturaPTMedium';
     color: #141414;
 }
 .contacts {
@@ -866,7 +697,6 @@ img {
 .contacts-title {
     font-size: 5rem;
     color: #fff;
-    font-family: 'FuturaPTMedium';
     padding-top: 35px;
     padding-bottom: 20px;
 }
@@ -874,13 +704,11 @@ img {
 .important-title {
     font-size: 3.6rem;
     color: #fff;
-    font-family: 'FuturaPTBook';
 }
 
 .important-text {
     color: #fff;
     font-size: 2rem;
-    font-family: 'FuturaPTBook';
     padding-bottom: 5px;
 }
 .form-contacts {
@@ -891,10 +719,8 @@ img {
     border-radius: 0;
     border: 1px solid #00aaae;
     box-shadow: none;
-    font-family: 'FuturaPTBook';
 }
 .form-contacts:focus {
-    font-family: 'FuturaPTBook';
     font-size: 2rem;
     color: #141414;
     outline: none !important;
@@ -911,7 +737,6 @@ img {
     font-size: 2rem;
     text-align: left;
     color: #fff;
-    font-family: 'FuturaPTBook';
     padding-bottom: 10px;
 }
 
@@ -930,21 +755,12 @@ input[type='number'] {
 /* End*/
 
 .contacts-btn {
-    min-height: 52px;
     width: 80%;
     text-align: center;
     float: left;
     color: #fff;
     background-color: #00595b;
     font-size: 2.4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: -ms-flexbox;
-    font-family: 'FuturaBookC';
     border-radius: 0;
 }
 .contacts-btn:hover {
@@ -960,13 +776,6 @@ input[type='number'] {
     background-color: #003c3d;
     color: #fff;
     min-height: 52px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: -ms-flexbox;
 
 }
 .contacts-icon-arrow .icon-arrow-rightt {
@@ -975,16 +784,7 @@ input[type='number'] {
 .color-transparent {
     color: transparent;
 }
-.flex-end {
-    display: flex;
-    align-items: flex-end;
-    display: -webkit-flex;
-    -webkit-align-items: flex-end;
-    display: -ms-flexbox;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-}
+
 .contacts .form-group {
     margin-bottom: 0;
 }
@@ -992,7 +792,6 @@ input[type='number'] {
     font-size: 2rem;
     text-align: left;
     color: #fff;
-    font-family: 'FuturaPTMedium';
     padding-top: 40px;
     padding-bottom: 20px;
 }
@@ -1000,14 +799,12 @@ input[type='number'] {
     font-size: 2rem;
     text-align: left;
     color: #fff;
-    font-family: 'FuturaPTBook';
 }
 
 .contacts-number-info {
     font-size: 2rem;
     text-align: left;
     color: #fff;
-    font-family: 'FuturaPTBook';
     padding-top: 40px;
     padding-bottom: 20px;
 }
@@ -1016,12 +813,10 @@ input[type='number'] {
     font-size: 2.4rem;
     text-align: left;
     color: #fff;
-    font-family: 'FuturaPTHeavy';
 }
 .start-earning-title {
     font-size: 7rem;
     text-align: left;
-    font-family: 'FuturaPTMedium';
     color: #141414;
     line-height: 0.9;
     padding-top: 175px;
@@ -1031,7 +826,6 @@ input[type='number'] {
 .start-earning-info {
     text-align: left;
     font-size: 2.8rem;
-    font-family: 'FuturaPTBook';
     color: #141414;
     padding-left: 35px;
     padding-bottom: 120px;
@@ -1051,7 +845,6 @@ input[type='number'] {
 .gotop {
     font-size: 1.2rem;
     text-align: left;
-    font-family: 'FuturaBookC';
     color: #141414;
 }
 .footer-bg {
@@ -1059,7 +852,6 @@ input[type='number'] {
 }
 .footer-logo {
     display: inline-block;
-    font-family: 'university-romanmedium';
     font-size: 5rem;
 }
 
@@ -1074,24 +866,21 @@ input[type='number'] {
     display: inline-block;
     color: #656565;
     font-size: 3rem;
-    font-family: 'FuturaBookC';
     position: relative;
     top: 32px;
 }
 
 .rewiews-text {
-    font-family: 'FuturaPTLight';
     font-size: 2rem;
     color: #141414;
     text-align: left;
 }
 
 .rewiews-info {
-    font-family: 'FuturaPTBook';
     font-size: 2rem;
     color: #141414;
     text-align: left;
-    margin-top: 66px;
+    margin-top: 26px;
 }
 
 .rewiews {
@@ -1110,7 +899,6 @@ input[type='number'] {
     content: "\e901";
     color: #fc8692;
     font-size: 12rem;
-    font-family: 'icomoon' !important;
 }
 
 .rewiews .owl-carousel .owl-next {
@@ -1125,7 +913,6 @@ input[type='number'] {
     content: "\e902";
     color: #fc8692;
     font-size: 12rem;
-    font-family: 'icomoon' !important;
 }
 
 .cost-title-block .block-title {
@@ -1149,10 +936,6 @@ input[type='number'] {
     padding-left: 30px;
 }
 
-.author-achievements .row {
-    display: flex;
-    display: -webkit-flex;
-}
 
 .course-enroll .block-title {
     padding-top: 50px;
@@ -1163,7 +946,7 @@ input[type='number'] {
 }
 .schedule .block-title {
     padding-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 42px;
 }
 .nearest-date .block-title {
     padding-top: 50px;
@@ -1182,10 +965,7 @@ input[type='number'] {
     margin-top: 20px;
 }
 
-.start-earning .row {
-    display: flex;
-    display: -webkit-flex;
-}
+
 .start-earning .col-md-6 {
     padding-left: 0;
     padding-right: 0;
@@ -1281,7 +1061,6 @@ a:hover {
      margin-top: 7px;
      background-color: #fff;
      float: left;
-    font-family: 'FuturaBookC';
  }
 .select-block .btn-group .btn-default:focus {
      background-color: #00aaae;
@@ -1320,7 +1099,6 @@ a:hover {
     padding-left: 11px !important;
     text-align: left;
     color: #656565;
-    font-family: 'FuturaBookC';
 }
 .multiselect-container > .active:focus  > a > label{
     color: #fff;
@@ -1344,7 +1122,6 @@ a:hover {
     text-decoration: none;
     background-color: #00aaae;
     color: #fff !important;
-    font-family: 'FuturaBookC';
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -1380,7 +1157,6 @@ input[type="radio"], input[type="checkbox"] {
     min-height: 110px;
     padding-left: 12px;
     margin-top: 15px;
-    font-family: 'FuturaBookC';
     font-size: 1.7rem;
 }
 
@@ -1431,12 +1207,7 @@ input[type="radio"], input[type="checkbox"] {
 .cost-it .col-md-4 {
     width: 32%;
 }
-.cost-it .row {
-    display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;
-    justify-content: space-between; -webkit-justify-content: space-between; -moz-justify-content: space-between; -ms-flex-pack: justify; -webkit-box-pack: justify; -moz-box-pack: justify;
-    flex-wrap: wrap; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap;
 
-}
 
     /* Debug */
 
@@ -1661,13 +1432,11 @@ input[type="radio"], input[type="checkbox"] {
         content: "\e901";
         color: #fc8692;
         font-size: 8rem;
-        font-family: 'icomoon' !important;
     }
     .rewiews .owl-carousel .owl-next:before {
         content: "\e902";
         color: #fc8692;
         font-size: 8rem;
-        font-family: 'icomoon' !important;
     }
 
     .item-info-block {
@@ -1867,27 +1636,9 @@ input[type="radio"], input[type="checkbox"] {
 .schedule-link-block {
     display: inline-block;
     position: relative;
-    margin: 15px;
 }
-.schedule-link-block a {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -moz-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -moz-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
+
 .schedule-link-block .schedule-link-img {
-    opacity: 0.3;
     max-width: 300px;
     width: 100%;
 }
@@ -1901,12 +1652,12 @@ input[type="radio"], input[type="checkbox"] {
     position: absolute;
     font-size: 2rem;
     color: #000;
-    font-family: 'FuturaBookC';
 }
 .schedule-link-block-wrapper {
     display: block;
     text-align: center;
     margin-bottom: 60px;
+    padding-top: 26px;
 }
 .contact--btn {
     margin-top: 3%;
@@ -1973,7 +1724,7 @@ input[type="radio"], input[type="checkbox"] {
     height: 29px;
     margin-right: 10px;
     background-image: url(../images/sprite.png);
-    background-position: -118px -20px;
+    background-position: -75px -1px;
     background-repeat: no-repeat;
 }
 .banner-title-text{
@@ -1998,7 +1749,9 @@ input[type="radio"], input[type="checkbox"] {
     margin-right: 10px;
     width: 28px;
     height: 39px;
-    background-color: orange;
+    background-image: url(../images/sprite.png);
+    background-position: -1px 0;
+    background-repeat: no-repeat;
 }
 
 .banner .learn-more-text{
@@ -2058,12 +1811,14 @@ input[type="radio"], input[type="checkbox"] {
 }
 .course-author-block .learn-more-text{
     width: 239px;
-    min-height: 42px;
+    height: 42px;
     color: #f54e60;
     font-size: 15px;
-    border: 1px solid #f54e60;
+    border: 2px solid #f54e60;
     text-transform: uppercase;
     border-radius: 40px;
+    margin: 0 auto;
+    padding-top: 11px;
 }
 .course-author-block .learn-more-text:hover{
     background-color: #f54e60;
@@ -2113,10 +1868,12 @@ input[type="radio"], input[type="checkbox"] {
 .course-enroll-left-item:after, .course-enroll-right-item:before{
     content: '';
     display: inline-block;
-    width: 36px;
-    height: 36px;
-    background-color: orange;
+    width: 38px;
+    height: 37px;
     padding-top: 1px;
+    background-image: url(../images/sprite.png);
+    background-position: -33px -3px;
+    background-repeat: no-repeat;
 }
 .course-enroll-left-item:after{
     margin-left: 10px;
@@ -2179,19 +1936,22 @@ input[type="radio"], input[type="checkbox"] {
     font-size: 16px;
     color: #242b33;
     line-height: 1.44;
-    max-width: 642px;
+    max-width: 700px;
     margin: 0 auto;
-    position: relative;
-  }
+}
+.course-enroll-warning-bottom p{
+    display: inline-block;
+    max-width: 642px;
+}
 .course-enroll-warning-bottom:before{
     content: '';
     width: 34px;
     height: 34px;
     display: inline-block;
-    left: -50px;
-    top: 26px;
-    background-color: orange;
-    position: absolute;
+    margin-right: 15px;
+    background-image: url(../images/sprite.png);
+    background-position: -105px 0;
+    background-repeat: no-repeat;
 }
 .course-enroll-warning-text{
     color: #f54e60;
@@ -2215,7 +1975,7 @@ input[type="radio"], input[type="checkbox"] {
 
 .about-courses-right-content{
     text-align: left;
-    padding-left: 111px;
+    padding-left: 40px;
 }
 .about-courses-right-content .block-title{
     padding: 0;
@@ -2227,7 +1987,7 @@ input[type="radio"], input[type="checkbox"] {
     font-family: "HelveticaNeueCyr", sans-serif;
     line-height: 1.44;
     color: #242b33;
-    margin-bottom: 38px;
+    margin-bottom: 32px;
     display: inline-block;
     position: relative;
 }
@@ -2245,36 +2005,44 @@ input[type="radio"], input[type="checkbox"] {
 .about-courses-right-content-items:nth-child(3) .about-courses-red-text{
     font-weight: bold;
 }
+.about-courses-items-wrapper{
+    display: inline-block;
+}
 
-.about-courses-right-content-items:nth-child(2):before{
+.about-courses-right-content-items:before{
     content: '';
     display: inline-block;
-    width: 31px;
-    height: 40px;
-    background-color: orange;
-    position: absolute;
-    top: 3px;
-    left: -60px;
+    vertical-align: top;
+}
+.about-courses-right-content-items:nth-child(2):before{
+    width: 34px;
+    height: 44px;
+    margin-right: 29px;
+    background-image: url(../images/sprite.png);
+    background-position: -141px 0;
+    background-repeat: no-repeat;
 }
 .about-courses-right-content-items:nth-child(3):before{
-    content: '';
-    display: inline-block;
     width: 40px;
     height: 40px;
-    background-color: orange;
-    position: absolute;
-    top: 0;
-    left: -60px;
+    margin-right: 24px;
+    background-image: url(../images/sprite.png);
+    background-position: -105px 0;
+    background-repeat: no-repeat;
 }
 .about-courses-right-content-items:nth-child(4):before{
-    content: '';
-    display: inline-block;
     width: 40px;
     height: 40px;
-    background-color: orange;
-    position: absolute;
-    top: -10px;
-    left: -60px;
+    margin-right: 25px;
+    background-image: url(../images/sprite.png);
+    background-position: -141px 0;
+    background-repeat: no-repeat;
+}
+
+.about-courses-right-content-items:nth-child(4) p{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
 }
 
 /*..........................cost it..........................*/
@@ -2354,6 +2122,10 @@ input[type="radio"], input[type="checkbox"] {
     background-color: #e65f83;
 }
 
+.submit-form .btn{
+    margin-top: 38px;
+}
+
 .submit-form .block-title{
     color: white;
     padding-top: 40px;
@@ -2402,7 +2174,7 @@ input[type="radio"], input[type="checkbox"] {
 .submit-form .btn{
     background: none;
     font-size: 15px;
-    border: 1px solid white;
+    border: 2px solid white;
     line-height: 1.53;
     border-radius: 40px;
     text-transform: uppercase;
@@ -2436,6 +2208,65 @@ input[type="radio"], input[type="checkbox"] {
      border-bottom: 2px solid white;
  }
 
+/*..........................schedule ..........................*/
+.schedule-link-block{
+    position: relative;
+}
+.schedule-link-img{
+    position: relative;
+}
+.schedule-link-block .schedule-link-img img{
+    border-radius: 50%;
+    border: 6px solid lightpink;
+}
+.schedule-link-block .schedule-link-img:after{
+    content: '';
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0;
+    left: 2.5%;
+    top: 2%;
+}
+.schedule-link-block:hover .schedule-link-img img{
+    border: 6px solid #f54e60;
+ }
+.schedule-link-block:hover .schedule-link-img:after{
+    opacity: 0.4;
+}
+.schedule-link-block:nth-child(1){
+    margin-right: 16.6%;
+}
+.schedule-link-block:nth-child(2){
+    margin-left: 16.6%;
+}
+.schedule-link-arrow{
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    right: 27px;
+    bottom: 0;
+}
+.schedule-link-arrow:after{
+    content: '';
+    /*background: url('../images/arrow-right.png') no-repeat center;*/
+    background-color: orange;
+    z-index: 10;
+    position: absolute;
+    width: 14px;
+    height: 20px;
+    left: 24px;
+    bottom: 22px;
+}
+.schedule-link-block:hover .schedule-link-arrow{
+    background-color: #f54e60;
+}
+
 
 
 
@@ -2445,4 +2276,222 @@ input[type="radio"], input[type="checkbox"] {
     background-color: #f8d9dc;
 }
 
-/*the end*/
+.graduate-wor .block-title{
+    padding-top: 108px;
+}
+.graduate-work .item-content-block{
+    width: 90%;
+    text-align: center;
+    padding-top: 127px;
+    padding-bottom: 190px;
+}
+
+.graduate-work .owl-carousel .owl-prev {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 85px);
+    top: -webkit-calc(50% - 85px);
+    color: transparent;
+}
+.graduate-work .owl-carousel .owl-prev:before {
+    content: "";
+    background-color: orange;
+    display: inline-block;
+    width: 29px;
+    height: 96px;
+}
+
+.graduate-work .owl-carousel .owl-next {
+    position: absolute;
+    right: 0;
+    top: calc(50% - 85px);
+    top: -webkit-calc(50% - 85px);
+    color: transparent;
+}
+.graduate-work .owl-carousel .owl-next:before {
+    content: "";
+    background-color: orange;
+    display: inline-block;
+    width: 29px;
+    height: 96px;
+}
+.graduate-work .owl-carousel .owl-item img{
+    display: inline-block;
+    width: 29.3%;
+    height: auto;
+    margin-right: 40px;
+    border: 6px solid #f3eced;
+    border-radius: 50%;
+}
+
+.graduate-work .owl-carousel .owl-item img:last-child{
+    margin-right: 0;
+}
+
+/*.......................... rewiews ..........................*/
+
+.rewiews .block-title{
+    padding-top: 183px;
+    margin-bottom: 20px;
+}
+
+.rewiews .owl-carousel .owl-controls .owl-nav .owl-prev:before,
+.rewiews .owl-carousel .owl-controls .owl-nav .owl-next:before
+{
+    width: 29px;
+    height: 96px;
+    background-color: orange;
+    content: '';
+    display: inline-block;
+}
+
+.rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
+    /*bacjground-position*/
+}
+.rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
+    /*bacjground-position*/
+}
+
+.rewiews .item-info-block{
+    width: 88.7%;
+    padding-left: 5.2%;
+    padding-right: 8.8%;
+    padding-top: 2.9%;
+    padding-bottom: 2.9%;
+    box-shadow: 0 6px 15px 0 rgba(244, 205, 209, 0.2);
+}
+
+.rewiews .rewiews-text{
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-size: 16px;
+    line-height: 1.31;
+    color: #788692;
+}
+
+.rewiews .rewiews-info{
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-size: 18px;
+    color: #f54e60;
+    padding-left: 35px;
+    margin-top: 31px;
+}
+.rewiews .rewiews-info div, .rewiews .rewiews-info img{
+    display: inline-block;
+}
+.rewiews .rewiews-info div{
+    vertical-align: top;
+    padding-top: 10px;
+}
+.rewiews .rewiews-info img{
+    width: 41px;
+    height: auto;
+
+}
+
+/*.......................... contacts ..........................*/
+
+.contacts{
+    background-color: #e65f83;
+}
+.contacts .row{
+    margin: 0;
+    padding: 0;
+}
+.google-map{
+    border: solid 1px #979797;
+}
+.contacts .col-md-7{
+    padding: 0;
+    margin: 0;
+}
+
+.contacts .col-md-5{
+    padding-left: 36px;
+}
+
+/*.......................... footer ..........................*/
+
+
+.footer-info{
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+.adress-title{
+    font-family: 'Roboto', SansSerif;;
+    font-size: 36px;
+    line-height: 1.47;
+    padding-top: 42px;
+}
+.adress-info{
+    display: block;
+    padding-top: 13px;
+}
+.adress-info p{
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 223px;
+    display: inline-block;
+    vertical-align: top;
+}
+.adress-info:before{
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 39px;
+    background-color: orange;
+    margin-right: 14px;
+}
+
+.contacts-number-info{
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 296px;
+    padding-top: 39px;
+    padding-bottom: 6px;
+}
+.contacts-number{
+    display: block;
+}
+.contacts-number:before{
+    content: '';
+    width: 28px;
+    height: 28px;
+    background-color: orange;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.contacts-number p{
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-size: 36px;
+    line-height: 1;
+    max-width: 231px;
+    display: inline-block;
+}
+
+.goTop-link, .gotop{
+    font-size: 12px;
+    font-family: "HelveticaNeueCyr", sans-serif;
+    line-height: 1.67;
+    color: #000000;
+}
+.goTop-link p{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 14px;
+    padding-right: 10px;
+}
+.goTop-link img{
+    display: inline-block;
+}
+.gotop{
+    padding-top: 20px;
+}
+.footer-number{
+    padding-top: 41px;
+}
+
+

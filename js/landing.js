@@ -38,6 +38,19 @@ jQuery(document).ready(function() {
             }
         }
     });
+    jQuery('#works').owlCarousel({
+        loop: true,
+        nav: true,
+        autoplay: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            1200: {
+                items: 1
+            }
+        }
+    });
 });
 
 jQuery(document).ready(function(){
