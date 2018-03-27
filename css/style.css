@@ -881,26 +881,20 @@ input[type='number'] {
 }
 
 .cost-title-block .block-title {
-     padding-top: 0;
      margin-bottom: 0;
     font-size: 2.5rem;
     padding-top: 20px;
 }
 
-.item-content-block {
-    width: 80%;
-    margin: 0 auto;
+.item-content-block:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 .item-img-block {
     width: 25%;
     float: left;
 }
-.item-info-block {
-    width: 75%;
-    float: left;
-    padding-left: 30px;
-}
-
 
 .course-enroll .block-title {
     padding-top: 50px;
@@ -1117,6 +1111,8 @@ input[type="radio"], input[type="checkbox"] {
 }
 .textarea-modal1 {
     width: 100%;
+    max-width: 100%;
+    min-width: 100%;
     min-height: 110px;
     padding-left: 12px;
     margin-top: 15px;
@@ -1654,7 +1650,7 @@ input[type="radio"], input[type="checkbox"] {
 
 .banner-number a,
 .banner-title-text,
-.banner-info-text,
+.banner-info-text a,
 .banner-learn-more a
 {
     color: white;
@@ -2057,6 +2053,7 @@ input[type="radio"], input[type="checkbox"] {
 .money-red-text{
     font-size: 18px;
     padding-top: 36px;
+    padding-bottom: 3px;
 }
 .money-red-text:first-child{
     padding-top: 24px;
@@ -2070,6 +2067,9 @@ input[type="radio"], input[type="checkbox"] {
 
 .submit-form .btn{
     margin-top: 38px;
+}
+.submit-form .btn:focus{
+    color: white;
 }
 
 .submit-form .block-title{
@@ -2140,11 +2140,10 @@ input[type="radio"], input[type="checkbox"] {
     background-color: white;
 }
 .submit-form .form-control{
-    position: absolute;
     color: white;
-    padding: 0;
-    bottom: 0;
-    left: 0;
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 0;
 }
 .submit-form .form-control:focus{
     border-bottom: 2px solid white;
@@ -2188,10 +2187,10 @@ input[type="radio"], input[type="checkbox"] {
     left: 2.5%;
     top: 2%;
 }
-.schedule-link-block:hover .schedule-link-img img{
+.schedule-link-block a:hover .schedule-link-img img{
     border: 6px solid #f54e60;
  }
-.schedule-link-block:hover .schedule-link-img:after{
+.schedule-link-block a:hover .schedule-link-img:after{
     opacity: 0.4;
 }
 .schedule-link-block:nth-child(1){
@@ -2224,13 +2223,15 @@ input[type="radio"], input[type="checkbox"] {
     background-position: -8px -50px;
     background-repeat: no-repeat;
 }
-.schedule-link-block:hover .schedule-link-arrow{
+.schedule-link-block a {
+    display: block;
+}
+.schedule-link-block a:hover .schedule-link-arrow{
     background-color: #f54e60;
 }
-.schedule-link-block:hover .schedule-link-arrow:after{
+.schedule-link-block a:hover .schedule-link-arrow:after{
     background-position: -26px -49px;
 }
-
 /*..........................graduate work ..........................*/
 
 .graduate-work{
@@ -2241,18 +2242,22 @@ input[type="radio"], input[type="checkbox"] {
     padding-top: 108px;
 }
 .graduate-work .item-content-block{
-    width: 90%;
-    text-align: center;
-    padding-top: 127px;
-    padding-bottom: 190px;
+    max-width: 302px;
+    max-height: 302px;
+    margin: 0 auto;
+}
+
+.graduate-work .carousel{
+    margin-top: 127px;
+    margin-bottom: 196px;
 }
 
 .graduate-work .owl-carousel .owl-prev {
     position: absolute;
-    left: 0;
-    top: -moz-calc(50% - 85px);
-    top: calc(50% - 85px);
-    top: -webkit-calc(50% - 85px);
+    left: -58px;
+    top: -moz-calc(50% - 54px);
+    top: calc(50% - 54px);
+    top: -webkit-calc(50% - 54px);
     color: transparent;
 }
 .graduate-work .owl-carousel .owl-prev:before,
@@ -2279,27 +2284,23 @@ input[type="radio"], input[type="checkbox"] {
 }
 .graduate-work .owl-carousel .owl-next {
     position: absolute;
-    right: 0;
-    top: -moz-calc(50% - 85px);
-    top: calc(50% - 85px);
-    top: -webkit-calc(50% - 85px);
+    right: -58px;
+    top: -moz-calc(50% - 54px);
+    top: calc(50% - 54px);
+    top: -webkit-calc(50% - 54px);
     color: transparent;
 }
 
 .graduate-work .owl-carousel .owl-item img{
     display: inline-block;
-    width: 29.3%;
+    width: 100%;
     height: auto;
-    margin-right: 40px;
     border: 6px solid #f3eced;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
 }
 
-.graduate-work .owl-carousel .owl-item img:last-child{
-    margin-right: 0;
-}
 
 /*.......................... rewiews ..........................*/
 
@@ -2307,7 +2308,12 @@ input[type="radio"], input[type="checkbox"] {
     padding-top: 183px;
     margin-bottom: 20px;
 }
-
+.rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
+    margin-left: 120px;
+}
+.rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
+    margin-right: 102px;
+}
 .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev:before,
 .rewiews .owl-carousel .owl-controls .owl-nav .owl-next:before
 {
@@ -2333,14 +2339,12 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 .rewiews .item-info-block{
-    width: 88.7%;
-    padding-left: 5.2%;
-    padding-right: 8.8%;
-    padding-top: 2.9%;
-    padding-bottom: 2.9%;
     -webkit-box-shadow: 0 6px 15px 0 rgba(244, 205, 209, 0.2);
     -moz-box-shadow: 0 6px 15px 0 rgba(244, 205, 209, 0.2);
     box-shadow: 0 6px 15px 0 rgba(244, 205, 209, 0.2);
+    max-width: 830px;
+    padding: 27px 82px 32px 49px;
+    margin: 0 auto;
 }
 
 .rewiews .rewiews-text{
@@ -2370,6 +2374,10 @@ input[type="radio"], input[type="checkbox"] {
 
 }
 
+.rewiews .owl-carousel .owl-item .items {
+    padding-bottom: 15px;
+}
+
 /*.......................... contacts ..........................*/
 
 .contacts{
@@ -2378,19 +2386,17 @@ input[type="radio"], input[type="checkbox"] {
 .contacts .row{
     margin: 0;
     padding: 0;
-}
-.google-map{
-    border: solid 1px #979797;
+    display: block;
 }
 .contacts .col-md-7{
     padding: 0;
     margin: 0;
+    overflow: hidden;
+    height: 375px;
 }
-
 .contacts .col-md-5{
     padding-left: 36px;
 }
-
 /*.......................... footer ..........................*/
 
 
@@ -2435,9 +2441,16 @@ input[type="radio"], input[type="checkbox"] {
     max-width: 296px;
     padding-top: 39px;
     padding-bottom: 6px;
+    text-decoration: none;
 }
 .contacts-number{
     display: block;
+}
+.contacts-number a{
+    color: white;
+}
+.contacts-number a:hover{
+    text-decoration: none;
 }
 .contacts-number:before{
     content: '';
@@ -2478,6 +2491,13 @@ input[type="radio"], input[type="checkbox"] {
 }
 .footer-number{
     padding-top: 41px;
+}
+
+.error {
+    border-bottom: 2px solid #ff0000 !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-left: none !important;
 }
 
 

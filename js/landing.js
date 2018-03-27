@@ -41,13 +41,16 @@ jQuery(document).ready(function() {
     jQuery('#works').owlCarousel({
         loop: true,
         nav: true,
-        autoplay: false,
+        center: true,
         responsive: {
             0: {
                 items: 1
             },
+            768: {
+                items: 2
+            },
             1200: {
-                items: 1
+                items: 3
             }
         }
     });
