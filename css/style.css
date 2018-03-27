@@ -22,7 +22,6 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
-    /*line-height: 1;*/
     padding: 0!important;
 }
 ol, ul {
@@ -120,14 +119,12 @@ img {
 }
 .banner-title-text {
     font-size: 6rem;
-    /*text-align: left;*/
     color: #141414;
     line-height: 1;
     text-align: center;
 }
 .banner-info-text-top {
     font-size: 2.8rem;
-    /*text-align: left;*/
     color: #141414;
     padding-bottom: 10px;
     padding-top: 70px;
@@ -135,7 +132,6 @@ img {
 }
 .banner-info-text {
     font-size: 2.8rem;
-    /*text-align: left;*/
     text-align: center;
     color: #141414;
     padding-top: 10px;
@@ -223,12 +219,8 @@ img {
     font-size: 13rem;
 }
 .scroll-bottom {
-    /*position: absolute;*/
-    /*bottom: 0;*/
-    /*text-align: center;*/
     width: 60px;
     height: 50px;
-    /*background-color: #00aaae;*/
     position: absolute;
     bottom: -25px;
     display: inline-block;
@@ -333,9 +325,7 @@ img {
     text-align: center;
     padding: 22px;
     color: #fff;
-    /*min-height: 136px;*/
     line-height: 1;
-    /*margin-top: 32px;*/
     margin-bottom: 19px;
     width: 564px;
     height: 136px;
@@ -369,7 +359,6 @@ img {
     font-size: 2rem;
     text-align: center;
     color: #141414;
-    /*margin-bottom: 30px;*/
     padding-bottom: 30px;
 }
 .course-enroll {
@@ -434,8 +423,6 @@ img {
     float: left;
     border: 1px solid #dddddd;
     border-right: 1px solid transparent;
-
-
 }
 
 .info-schedule-day {
@@ -459,9 +446,6 @@ img {
     color: #141414;
 }
 
-
-
-
 .flex-mode {
     display: inline-block;
 }
@@ -473,7 +457,6 @@ img {
 .nearest-date-info {
     text-align: center;
     font-size: 2rem;
-    /*font-size: 1.8rem;*/
     color: #141414;
 }
 
@@ -498,11 +481,9 @@ img {
 .enroll-btn-icon {
     color: #fff;
     font-size: 4rem;
-    /*display: inline-block;*/
     float: left;
 }
 .enroll-btn-text {
-    /*display: inline-block;*/
     float: left;
     font-size: 3rem;
     margin-right: 10px;
@@ -588,10 +569,7 @@ img {
     text-align: center;
     width: 32%;
 }
-/*.cost-it .col-md-4:nth-child(2) {*/
-    /*margin-left: 2%;*/
-    /*margin-right: 2%;*/
-/*}*/
+
 .cost-it .col-md-4 ul li {
     text-align: left;
     font-size: 2rem;
@@ -603,8 +581,6 @@ img {
     width: 70%;
     margin: 0 auto;
 
-    /*margin-left: calc(30px - 100%);*/
-    /*margin-left: -webkit-calc(30px - 100%);*/
 }
 
 .manicure-title-text {
@@ -755,7 +731,7 @@ input[type='number'] {
 /* End*/
 
 .contacts-btn {
-    width: 80%;
+    width: 100%;
     text-align: center;
     float: left;
     color: #fff;
@@ -769,18 +745,7 @@ input[type='number'] {
     background-color: #003334;
 }
 
-.contacts-icon-arrow {
-    float: left;
-    width: 20%;
-    text-align: center;
-    background-color: #003c3d;
-    color: #fff;
-    min-height: 52px;
 
-}
-.contacts-icon-arrow .icon-arrow-rightt {
-    font-size: 3rem;
-}
 .color-transparent {
     color: transparent;
 }
@@ -1073,11 +1038,9 @@ a:hover {
     border: 1px solid #fff;
 }
 .select-block .btn-group .btn-default:focus .caret {
-    /*background-color: #fff;*/
     color: #fff;
 }
 .select-block .btn-group .btn-default:hover .caret {
-    /*background-color: #fff;*/
     color: #fff;
 }
 
@@ -1255,19 +1218,13 @@ input[type="radio"], input[type="checkbox"] {
     .manicure-icon-arrow {
         height: 69px;
     }
-    /*.cost-it .row {*/
-        /*margin-bottom: 49px;*/
-    /*}*/
+
     .modal1-btn {
         height: 86px;
     }
     .modal1-icon-arrow {
         height: 86px;
     }
-    .contacts-icon-arrow {
-        height: 52px;
-    }
-
 }
 @media all and (-ms-high-contrast:none) and (max-width: 610px) {
     .modal1-btn {
@@ -1668,7 +1625,7 @@ input[type="radio"], input[type="checkbox"] {
     text-align: center;
 }
 
-/* new style css */
+/* ..................................new style css.................................. */
 
 .container{
     padding: 0;
@@ -1692,7 +1649,7 @@ input[type="radio"], input[type="checkbox"] {
     color: #00a8ac;
     padding-top: 130px;
     margin-bottom: 11px;
-    font-family: 'Roboto', SansSerif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .banner-number a,
@@ -1750,7 +1707,7 @@ input[type="radio"], input[type="checkbox"] {
     width: 28px;
     height: 39px;
     background-image: url(../images/sprite.png);
-    background-position: -1px 0;
+    background-position: 0 0;
     background-repeat: no-repeat;
 }
 
@@ -1761,6 +1718,8 @@ input[type="radio"], input[type="checkbox"] {
     display: block;
     height: 90px;
     border: 3px solid white;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
     border-radius: 45px;
     font-size: 18px;
     text-transform: uppercase;
@@ -1816,6 +1775,8 @@ input[type="radio"], input[type="checkbox"] {
     font-size: 15px;
     border: 2px solid #f54e60;
     text-transform: uppercase;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
     border-radius: 40px;
     margin: 0 auto;
     padding-top: 11px;
@@ -1851,6 +1812,8 @@ input[type="radio"], input[type="checkbox"] {
 }
 .course-enroll-left-item, .course-enroll-right-item{
     display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 50%;
 }
@@ -1872,7 +1835,7 @@ input[type="radio"], input[type="checkbox"] {
     height: 37px;
     padding-top: 1px;
     background-image: url(../images/sprite.png);
-    background-position: -33px -3px;
+    background-position: -32px -3px;
     background-repeat: no-repeat;
 }
 .course-enroll-left-item:after{
@@ -1884,50 +1847,36 @@ input[type="radio"], input[type="checkbox"] {
 .course-enroll-items:nth-child(1) .course-enroll-left-item{
     padding-right: 175px;
 }
-.course-enroll-items:nth-child(1)
-.course-enroll-left-item p,
-.course-enroll-items:nth-child(1)
-.course-enroll-right-item p,
-.course-enroll-items:nth-child(3)
-.course-enroll-right-item p
+.course-enroll-items:nth-child(1) .course-enroll-left-item p,
+.course-enroll-items:nth-child(1) .course-enroll-right-item p,
+.course-enroll-items:nth-child(3) .course-enroll-right-item p
 {
     vertical-align: top;
     padding-top: 7px;
 }
 
-
-
-.course-enroll-items:nth-child(1)
-.course-enroll-right-item{
+.course-enroll-items:nth-child(1) .course-enroll-right-item{
     padding-left: 85px;
 }
 
-.course-enroll-items:nth-child(2)
-.course-enroll-left-item{
+.course-enroll-items:nth-child(2) .course-enroll-left-item{
     padding-right: 270px;
 }
-.course-enroll-items:nth-child(2)
-.course-enroll-right-item{
+.course-enroll-items:nth-child(2) .course-enroll-right-item{
     padding-left: 180px;
 }
-.course-enroll-items:nth-child(3)
-.course-enroll-left-item{
+.course-enroll-items:nth-child(3) .course-enroll-left-item{
      padding-right: 265px;
 }
-.course-enroll-items:nth-child(3)
-.course-enroll-right-item{
+.course-enroll-items:nth-child(3) .course-enroll-right-item{
     padding-left: 180px;
 }
-.course-enroll-items:nth-child(4)
-.course-enroll-left-item{
+.course-enroll-items:nth-child(4) .course-enroll-left-item{
     padding-right: 175px;
 }
-.course-enroll-items:nth-child(4)
-.course-enroll-right-item{
+.course-enroll-items:nth-child(4) .course-enroll-right-item{
     padding-left: 80px;
 }
-
-
 
 .course-enroll-warning-bottom{
     padding: 20px 0 62px 0;
@@ -1950,7 +1899,7 @@ input[type="radio"], input[type="checkbox"] {
     display: inline-block;
     margin-right: 15px;
     background-image: url(../images/sprite.png);
-    background-position: -105px 0;
+    background-position: -108px 0;
     background-repeat: no-repeat;
 }
 .course-enroll-warning-text{
@@ -1959,6 +1908,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 /*..........................about courses..........................*/
+
 .about-courses{
     padding: 177px 0 138px 0;
 }
@@ -2015,19 +1965,19 @@ input[type="radio"], input[type="checkbox"] {
     vertical-align: top;
 }
 .about-courses-right-content-items:nth-child(2):before{
-    width: 34px;
+    width: 35px;
     height: 44px;
     margin-right: 29px;
     background-image: url(../images/sprite.png);
-    background-position: -141px 0;
+    background-position: -146px 0;
     background-repeat: no-repeat;
 }
 .about-courses-right-content-items:nth-child(3):before{
-    width: 40px;
-    height: 40px;
-    margin-right: 24px;
+    width: 35px;
+    height: 39px;
+    margin-right: 31px;
     background-image: url(../images/sprite.png);
-    background-position: -105px 0;
+    background-position: -181px 0;
     background-repeat: no-repeat;
 }
 .about-courses-right-content-items:nth-child(4):before{
@@ -2035,7 +1985,7 @@ input[type="radio"], input[type="checkbox"] {
     height: 40px;
     margin-right: 25px;
     background-image: url(../images/sprite.png);
-    background-position: -141px 0;
+    background-position: -217px 0;
     background-repeat: no-repeat;
 }
 
@@ -2059,10 +2009,6 @@ input[type="radio"], input[type="checkbox"] {
     background: none;
     border: none;
 }
-
-/*.cost-it .col-md-4:last-child .money-title{
-    background-color: red;
-}*/
 
 .cost-it .block-title{
     margin-bottom: 58px;
@@ -2142,7 +2088,7 @@ input[type="radio"], input[type="checkbox"] {
 #kurseCallBack{
     margin: 52px 0 87px 0;
 }
-.form-title{
+.submit-form .form-title{
     font-family: "HelveticaNeueCyr", sans-serif;
     font-size: 14px;
     line-height: normal;
@@ -2150,19 +2096,24 @@ input[type="radio"], input[type="checkbox"] {
     position: absolute;
     top: 30px;
     left: 0;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
     transition: all 1s ease;
 }
-.form-group{
+.submit-form .form-group{
     margin-bottom: 0;
     position: relative;
     height: 80px;
 }
 
-.form-group input:focus{
+.submit-form .form-group input:focus{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none;
     border-color: #fff;
 }
-.form-control{
+.submit-form .form-control{
     background: none;
     border-top: none;
     border-left: none;
@@ -2176,6 +2127,8 @@ input[type="radio"], input[type="checkbox"] {
     font-size: 15px;
     border: 2px solid white;
     line-height: 1.53;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
     border-radius: 40px;
     text-transform: uppercase;
     width: 239px;
@@ -2186,29 +2139,30 @@ input[type="radio"], input[type="checkbox"] {
     color: #e65f83;
     background-color: white;
 }
-.form-control{
+.submit-form .form-control{
     position: absolute;
     color: white;
     padding: 0;
     bottom: 0;
     left: 0;
 }
-.form-control:focus{
+.submit-form .form-control:focus{
     border-bottom: 2px solid white;
 }
-.form-control:focus+.form-title,
-.form-control:hover+.form-title
+.submit-form .form-control:focus+.form-title,
+.submit-form .form-control:hover+.form-title
 {
     top: 12px;
     font-size: 10px;
     color: rgba(255, 255, 255, 0.61);
 }
-.form-control:focus,
-.form-control:hover{
+.submit-form .form-control:focus,
+.submit-form .form-control:hover{
      border-bottom: 2px solid white;
  }
 
 /*..........................schedule ..........................*/
+
 .schedule-link-block{
     position: relative;
 }
@@ -2216,6 +2170,8 @@ input[type="radio"], input[type="checkbox"] {
     position: relative;
 }
 .schedule-link-block .schedule-link-img img{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     border: 6px solid lightpink;
 }
@@ -2224,6 +2180,8 @@ input[type="radio"], input[type="checkbox"] {
     position: absolute;
     width: 95%;
     height: 95%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     background-color: white;
     opacity: 0;
@@ -2244,6 +2202,8 @@ input[type="radio"], input[type="checkbox"] {
 }
 .schedule-link-arrow{
     background-color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     z-index: 1;
     position: absolute;
@@ -2254,21 +2214,22 @@ input[type="radio"], input[type="checkbox"] {
 }
 .schedule-link-arrow:after{
     content: '';
-    /*background: url('../images/arrow-right.png') no-repeat center;*/
-    background-color: orange;
     z-index: 10;
     position: absolute;
     width: 14px;
     height: 20px;
     left: 24px;
     bottom: 22px;
+    background-image: url(../images/sprite.png);
+    background-position: -8px -50px;
+    background-repeat: no-repeat;
 }
 .schedule-link-block:hover .schedule-link-arrow{
     background-color: #f54e60;
 }
-
-
-
+.schedule-link-block:hover .schedule-link-arrow:after{
+    background-position: -26px -49px;
+}
 
 /*..........................graduate work ..........................*/
 
@@ -2289,38 +2250,50 @@ input[type="radio"], input[type="checkbox"] {
 .graduate-work .owl-carousel .owl-prev {
     position: absolute;
     left: 0;
+    top: -moz-calc(50% - 85px);
     top: calc(50% - 85px);
     top: -webkit-calc(50% - 85px);
     color: transparent;
 }
-.graduate-work .owl-carousel .owl-prev:before {
+.graduate-work .owl-carousel .owl-prev:before,
+.graduate-work .owl-carousel .owl-next:before
+{
     content: "";
-    background-color: orange;
     display: inline-block;
-    width: 29px;
-    height: 96px;
+    width: 33px;
+    height: 102px;
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
 }
-
+.graduate-work .owl-carousel .owl-prev:before{
+    background-position: -499px 0;
+}
+.graduate-work .owl-carousel .owl-prev:hover:before {
+    background-position: -308px 0;
+}
+.graduate-work .owl-carousel .owl-next:before {
+    background-position: -454px 0;
+}
+.graduate-work .owl-carousel .owl-next:hover:before {
+    background-position: -265px 0;
+}
 .graduate-work .owl-carousel .owl-next {
     position: absolute;
     right: 0;
+    top: -moz-calc(50% - 85px);
     top: calc(50% - 85px);
     top: -webkit-calc(50% - 85px);
     color: transparent;
 }
-.graduate-work .owl-carousel .owl-next:before {
-    content: "";
-    background-color: orange;
-    display: inline-block;
-    width: 29px;
-    height: 96px;
-}
+
 .graduate-work .owl-carousel .owl-item img{
     display: inline-block;
     width: 29.3%;
     height: auto;
     margin-right: 40px;
     border: 6px solid #f3eced;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
 }
 
@@ -2338,18 +2311,25 @@ input[type="radio"], input[type="checkbox"] {
 .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev:before,
 .rewiews .owl-carousel .owl-controls .owl-nav .owl-next:before
 {
-    width: 29px;
-    height: 96px;
-    background-color: orange;
+    width: 33px;
+    height: 102px;
     content: '';
     display: inline-block;
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
 }
 
-.rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
-    /*bacjground-position*/
+.rewiews .owl-carousel .owl-controls .owl-nav .owl-prev:before{
+    background-position: -355px 0;
 }
-.rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
-    /*bacjground-position*/
+.rewiews .owl-carousel .owl-controls .owl-nav .owl-next:before{
+    background-position: -403px 0;
+}
+.rewiews .owl-carousel .owl-controls .owl-nav .owl-prev:hover:before{
+    background-position: -308px 0;
+}
+.rewiews .owl-carousel .owl-controls .owl-nav .owl-next:hover:before{
+    background-position: -265px 0;
 }
 
 .rewiews .item-info-block{
@@ -2358,6 +2338,8 @@ input[type="radio"], input[type="checkbox"] {
     padding-right: 8.8%;
     padding-top: 2.9%;
     padding-bottom: 2.9%;
+    -webkit-box-shadow: 0 6px 15px 0 rgba(244, 205, 209, 0.2);
+    -moz-box-shadow: 0 6px 15px 0 rgba(244, 205, 209, 0.2);
     box-shadow: 0 6px 15px 0 rgba(244, 205, 209, 0.2);
 }
 
@@ -2418,7 +2400,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 .adress-title{
-    font-family: 'Roboto', SansSerif;;
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     line-height: 1.47;
     padding-top: 42px;
@@ -2440,8 +2422,10 @@ input[type="radio"], input[type="checkbox"] {
     display: inline-block;
     width: 28px;
     height: 39px;
-    background-color: orange;
     margin-right: 14px;
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 
 .contacts-number-info{
@@ -2459,9 +2443,11 @@ input[type="radio"], input[type="checkbox"] {
     content: '';
     width: 28px;
     height: 28px;
-    background-color: orange;
     display: inline-block;
     margin-right: 12px;
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -75px -2px;
 }
 
 .contacts-number p{
