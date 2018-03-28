@@ -25,6 +25,24 @@ jQuery(window).on('load resize', function(){
 });
 
 jQuery(document).ready(function() {
+
+    jQuery('#works').owlCarousel({
+        loop: true,
+        nav: true,
+        center: true,
+        autoWidth: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            990: {
+                items: 2
+            },
+            1200: {
+                items: 3
+            }
+        }
+    });
     jQuery('#rewiews').owlCarousel({
         loop: true,
         nav: true,
@@ -38,22 +56,7 @@ jQuery(document).ready(function() {
             }
         }
     });
-    jQuery('#works').owlCarousel({
-        loop: true,
-        nav: true,
-        center: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            1200: {
-                items: 3
-            }
-        }
-    });
+
 });
 
 jQuery(document).ready(function(){

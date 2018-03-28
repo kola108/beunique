@@ -1362,9 +1362,6 @@ input[type="radio"], input[type="checkbox"] {
     .author-achievements-img {
         max-width: 100%;
     }
-    /*.img-adaptive {*/
-        /*position: absolute;*/
-    /*}*/
     .schedule-img-position {
         position: absolute;
     }
@@ -1785,13 +1782,14 @@ input[type="radio"], input[type="checkbox"] {
 
 /*..........................course enroll..........................*/
 
-.course-enroll .container{
-    background: url("../images/course-enroll-bg.png") no-repeat center top;
-    padding-top: 100px;
+.course-enroll{
+    background-image: url(../images/course-enroll-bg.png);
+    background-repeat:  no-repeat;
+    background-position: center 194px;
+    padding-top: 15px;
 }
 .course-enroll .block-title{
-    margin-bottom: 88px;
-    padding-top: 65px;
+    margin-bottom: 170px;
 }
 .course-enroll-items{
     font-family: "HelveticaNeueCyr", sans-serif;
@@ -1840,37 +1838,48 @@ input[type="radio"], input[type="checkbox"] {
 .course-enroll-right-item:before{
     margin-right: 10px;
 }
-.course-enroll-items:nth-child(1) .course-enroll-left-item{
-    padding-right: 175px;
+.course-enroll-items .course-enroll-left-item p{
+    max-width: 196px;
 }
-.course-enroll-items:nth-child(1) .course-enroll-left-item p,
-.course-enroll-items:nth-child(1) .course-enroll-right-item p,
-.course-enroll-items:nth-child(3) .course-enroll-right-item p
+.course-enroll-items .course-enroll-right-item p{
+    max-width: 320px;
+}
+.course-enroll-items:nth-child(2) .course-enroll-left-item p,
+.course-enroll-items:nth-child(2) .course-enroll-right-item p,
+.course-enroll-items:nth-child(4) .course-enroll-right-item p
 {
     vertical-align: top;
     padding-top: 7px;
 }
-
-.course-enroll-items:nth-child(1) .course-enroll-right-item{
-    padding-left: 85px;
+.course-enroll-items:nth-child(5) .course-enroll-left-item p{
+    max-width: 280px;
+}
+.course-enroll-items:nth-child(3) .course-enroll-right-item p{
+    max-width: 205px;
 }
 
 .course-enroll-items:nth-child(2) .course-enroll-left-item{
-    padding-right: 270px;
+    padding-right: 175px;
 }
 .course-enroll-items:nth-child(2) .course-enroll-right-item{
-    padding-left: 180px;
+    padding-left: 85px;
 }
 .course-enroll-items:nth-child(3) .course-enroll-left-item{
-     padding-right: 265px;
+    padding-right: 270px;
 }
 .course-enroll-items:nth-child(3) .course-enroll-right-item{
     padding-left: 180px;
 }
 .course-enroll-items:nth-child(4) .course-enroll-left-item{
-    padding-right: 175px;
+     padding-right: 265px;
 }
 .course-enroll-items:nth-child(4) .course-enroll-right-item{
+    padding-left: 180px;
+}
+.course-enroll-items:nth-child(5) .course-enroll-left-item{
+    padding-right: 175px;
+}
+.course-enroll-items:nth-child(5) .course-enroll-right-item{
     padding-left: 80px;
 }
 
@@ -2244,17 +2253,28 @@ input[type="radio"], input[type="checkbox"] {
 .graduate-work .item-content-block{
     max-width: 302px;
     max-height: 302px;
-    margin: 0 auto;
+    margin: 0 16px;
 }
 
 .graduate-work .carousel{
     margin-top: 127px;
     margin-bottom: 196px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .graduate-work .owl-carousel .owl-prev {
     position: absolute;
-    left: -58px;
+    left: -60px;
+    top: -moz-calc(50% - 54px);
+    top: calc(50% - 54px);
+    top: -webkit-calc(50% - 54px);
+    color: transparent;
+}
+.graduate-work .owl-carousel .owl-next {
+    position: absolute;
+    right: -70px;
     top: -moz-calc(50% - 54px);
     top: calc(50% - 54px);
     top: -webkit-calc(50% - 54px);
@@ -2281,14 +2301,6 @@ input[type="radio"], input[type="checkbox"] {
 }
 .graduate-work .owl-carousel .owl-next:hover:before {
     background-position: -265px 0;
-}
-.graduate-work .owl-carousel .owl-next {
-    position: absolute;
-    right: -58px;
-    top: -moz-calc(50% - 54px);
-    top: calc(50% - 54px);
-    top: -webkit-calc(50% - 54px);
-    color: transparent;
 }
 
 .graduate-work .owl-carousel .owl-item img{
@@ -2371,7 +2383,10 @@ input[type="radio"], input[type="checkbox"] {
 .rewiews .rewiews-info img{
     width: 41px;
     height: auto;
-
+    border: 3px solid #f8d9dc;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .rewiews .owl-carousel .owl-item .items {
@@ -2500,4 +2515,301 @@ input[type="radio"], input[type="checkbox"] {
     border-left: none !important;
 }
 
+/*................................my media quaries................................*/
 
+@media all and (max-width: 1199px){
+    .banner-learn-more{
+        margin-bottom: 3%;
+    }
+    .banner-title-text{
+        padding-top: 5%;
+        font-size: 37px;
+    }
+    .banner-info-text {
+        padding: 8% 0;
+    }
+    .course-author-block .block-title{
+        padding-top: 3%;
+    }
+    .course-author-block .registered--btn{
+        margin-top: 3%;
+    }
+    .course-enroll{
+        padding-top: 30px;
+        background-size: 490px 476px;
+        background-position: center 110px;
+    }
+    .course-enroll .block-title{
+        padding-top: 0;
+        margin-bottom: 118px;
+    }
+    .course-enroll-items{
+        margin-bottom: 60px;
+    }
+    .course-enroll-items:nth-child(2) .course-enroll-left-item{
+        padding-right: 164px;
+    }
+    .course-enroll-items:nth-child(2) .course-enroll-right-item{
+        padding-left: 77px;
+    }
+    .course-enroll-items:nth-child(3) .course-enroll-left-item{
+        padding-right: 218px;
+    }
+    .course-enroll-items:nth-child(3) .course-enroll-right-item{
+        padding-left: 142px;
+    }
+    .course-enroll-items:nth-child(4) .course-enroll-left-item{
+        padding-right: 214px;
+    }
+    .course-enroll-items:nth-child(4) .course-enroll-right-item{
+        padding-left: 142px;
+    }
+    .course-enroll-items:nth-child(5) .course-enroll-left-item{
+        padding-right: 146px;
+    }
+    .course-enroll-items:nth-child(5) .course-enroll-right-item{
+        padding-left: 65px;
+    }
+    .about-courses{
+        padding: 3% 0;
+    }
+    .about-courses-img-box{
+        margin-top: 22%;
+    }
+    .about-courses-items-wrapper{
+        width: 85%;
+    }
+    .cost-it .container{
+        padding-bottom: 3%;
+    }
+    .cost-it .block-title{
+        padding-top: 3%;
+        margin-bottom: 3%;
+    }
+    .submit-form .block-title{
+        padding-top: 3%;
+    }
+    #kurseCallBack{
+        margin: 4% 0;
+    }
+    .schedule-link-block-wrapper{
+        padding-top: 0;
+        margin-bottom: 3%;
+    }
+    .schedule .block-title{
+        padding-top: 4%;
+        margin-bottom: 4%;
+    }
+    .graduate-work .block-title{
+        padding-top: 3%;
+    }
+    .graduate-work .carousel{
+        margin: 4% auto;
+    }
+    .rewiews .block-title{
+        padding-top: 3%;
+    }
+    .rewiews{
+        margin: 3%;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
+        margin-left: 20px;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
+        margin-right: 0;
+    }
+    .gotop{
+        padding-top: 0;
+    }
+    .footer-number{
+        padding-top: 22px;
+    }
+    .footer-info{
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 1109px){
+    .graduate-work .owl-carousel .owl-item img{
+        width: 84%;
+        margin-left: 8%;
+    }
+    .graduate-work .item-content-block{
+        margin: 0;
+    }
+    .graduate-work .carousel{
+        width: 91%;
+    }
+    .graduate-work .owl-carousel .owl-prev {
+        left: -40px;
+    }
+    .graduate-work .owl-carousel .owl-next {
+        right: -47px;
+    }
+}
+
+@media all and (max-width: 990px){
+    .course-author-block .block-title{
+        text-align: center;
+    }
+    .course-enroll{
+        background-image: url(../images/course-enroll-bg2.png);
+        padding-top: 3%;
+    }
+    .course-enroll .block-title{
+        margin-bottom: 6%;
+    }
+    .course-enroll-items{
+        margin-bottom: 0;
+    }
+    .course-enroll-items .course-enroll-left-item,
+    .course-enroll-items .course-enroll-right-item
+    {
+        width: 100%;
+        padding-left: 20% !important;
+        text-align: left;
+        position: relative;
+    }
+    .course-enroll-items .course-enroll-left-item:after,
+    .course-enroll-items .course-enroll-right-item:before
+    {
+        position: absolute;
+        left: 10%;
+        margin: 0;
+    }
+    .course-enroll-items p{
+        max-width: 100%!important;
+        padding-top: 10px;
+        margin-bottom: 6%;
+    }
+    .about-courses-img-box{
+        margin-top: 0;
+    }
+    .about-courses-right-content .block-title{
+        text-align: center;
+    }
+    .about-courses-right-content-items:before{
+        margin-right: 0!important;
+    }
+
+    .about-courses-right-content-items{
+        margin-bottom: 2%;
+        margin-left: 12%;
+        width: 90%;
+    }
+    .cost-it .manicure-block{
+        margin-top: 60px;
+    }
+    .cost-it .col-md-4:first-child .manicure-block{
+        margin-top: 0;
+    }
+    .cost-it-text{
+        padding-left: 10%;
+    }
+    .submit-form .contacts-btn-block{
+        display: inline-block;
+        margin-left: -webkit-calc(50% - 120px);
+        margin-left: -moz-calc(50% - 120px);
+        margin-left: calc(50% - 120px);
+    }
+    .schedule-link-block:nth-child(1){
+        margin-right: 15%;
+    }
+    .schedule-link-block:nth-child(2){
+        margin-left: 15%;
+    }
+    .graduate-work .carousel{
+        width:600px;
+    }
+    .graduate-work .owl-carousel .owl-item img{
+        margin-left: 170px;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
+        position: absolute;
+        left: 0;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
+        position: absolute;
+        right: 0;
+    }
+    .contacts-adress, .contacts-phone{
+        display: inline-block;
+        padding: 3% 0;
+    }
+    .contacts .col-md-5:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .contacts-adress{
+        float: left;
+    }
+    .contacts-phone{
+        float: right;
+    }
+    .adress-title{
+        padding: 0;
+    }
+    .contacts-number-info{
+        padding-top: 6px;
+        padding-bottom: 10px;
+    }
+    .adress-info{
+        padding-top: 0;
+    }
+}
+
+@media all and (max-width: 870px){
+    .rewiews .item-info-block{
+        width: 80%;
+        float: none;
+    }
+}
+@media all and (max-width: 770px){
+    .row{ margin: 0 auto; }
+}
+@media all and (max-width: 750px){
+    .schedule-link-block:nth-child(1){
+        margin-right: 5%;
+    }
+    .schedule-link-block:nth-child(2) {
+        margin-left: 5%;
+    }
+}
+@media all and (max-width: 715px){
+    .course-enroll-warning-bottom{
+             padding-left: 3%;
+         }
+    .course-enroll-warning-bottom:before{
+        margin-left: -webkit-calc(50% - 17px);
+        margin-left: -moz-calc(50% - 17px);
+        margin-left: calc(50% - 17px);
+    }
+    .graduate-work .carousel{
+        width: 260px;
+    }
+    .graduate-work .owl-carousel .owl-item img{
+        margin-left: 21px;
+    }
+}
+
+@media all and (max-width: 630px){
+    .contacts-adress,
+    .contacts-phone{
+        display: inline-block;
+        float: none;
+    }
+}
+
+@media all and (max-width: 590px){
+    .schedule-link-block:nth-child(1){
+        margin-right: 1%;
+    }
+    .schedule-link-block:nth-child(2) {
+        margin-left: 1%;
+    }
+    .rewiews .item-info-block{
+        padding: 15px;
+    }
+
+}
