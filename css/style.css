@@ -2200,23 +2200,20 @@ input[type="radio"], input[type="checkbox"] {
     margin-right: auto;
 }
 
-.graduate-work .owl-carousel .owl-prev {
+.graduate-work .owl-carousel .owl-prev,
+.graduate-work .owl-carousel .owl-next{
     position: absolute;
-    left: -58px;
     top: -moz-calc(50% - 54px);
     top: calc(50% - 54px);
     top: -webkit-calc(50% - 54px);
-    color: transparent;
     width: 0;
+    color: transparent;
+}
+.graduate-work .owl-carousel .owl-prev{
+    left: -58px;
 }
 .graduate-work .owl-carousel .owl-next {
-    position: absolute;
     right: -30px;
-    top: -moz-calc(50% - 54px);
-    top: calc(50% - 54px);
-    top: -webkit-calc(50% - 54px);
-    color: transparent;
-    width: 0;
 }
 .graduate-work .owl-carousel .owl-prev:before,
 .graduate-work .owl-carousel .owl-next:before
@@ -2460,7 +2457,7 @@ input[type="radio"], input[type="checkbox"] {
 
 @media all and (max-width: 1199px){
     .banner-learn-more{
-        margin-bottom: 3%;
+        margin-bottom: 10%;
     }
     .banner-title-text{
         padding-top: 5%;
@@ -2470,13 +2467,13 @@ input[type="radio"], input[type="checkbox"] {
         padding: 8% 0;
     }
     .course-author-block .block-title{
-        padding-top: 3%;
+        padding-top: 10%;
     }
     .course-author-block .registered--btn{
-        margin-top: 3%;
+        margin-top: 10%;
     }
     .course-enroll{
-        padding-top: 30px;
+        padding-top: 40px;
         background-size: 490px 476px;
         background-position: center 110px;
     }
@@ -2511,8 +2508,11 @@ input[type="radio"], input[type="checkbox"] {
     .course-enroll-items:nth-child(5) .course-enroll-right-item{
         padding-left: 65px;
     }
+    .course-enroll-warning-bottom{
+        padding-bottom: 10%;
+    }
     .about-courses{
-        padding: 3% 0;
+        padding: 10% 0;
     }
     .about-courses-img-box{
         margin-top: 22%;
@@ -2521,43 +2521,43 @@ input[type="radio"], input[type="checkbox"] {
         width: 85%;
     }
     .cost-it .container{
-        padding-bottom: 3%;
+        padding-bottom: 10%;
     }
     .cost-it .block-title{
-        padding-top: 3%;
+        padding-top: 10%;
         margin-bottom: 3%;
     }
     .submit-form .block-title{
-        padding-top: 3%;
+        padding-top: 10%;
     }
     #kurseCallBack{
-        margin: 4% 0;
+        margin: 4% 0 10% 0;
     }
     .schedule-link-block-wrapper{
         padding-top: 0;
-        margin-bottom: 3%;
+        margin-bottom: 10%;
     }
     .schedule .block-title{
-        padding-top: 4%;
+        padding-top: 30%;
         margin-bottom: 4%;
     }
     .graduate-work .block-title{
-        padding-top: 3%;
+        padding-top: 10%;
     }
     .graduate-work .carousel{
-        margin: 4% auto;
+        margin: 4% auto 10% auto;
     }
     .rewiews .block-title{
         padding-top: 3%;
     }
     .rewiews{
-        margin: 3%;
+        margin: 10% 0;
     }
     .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
-        margin-left: 20px;
+        margin-left: 0;
     }
     .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
-        margin-right: 50px;
+        margin-right: 4%;
     }
 
 }
@@ -2592,9 +2592,13 @@ input[type="radio"], input[type="checkbox"] {
     .course-author-block .block-title{
         text-align: center;
     }
+    .course-author-left-content p{
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
     .course-enroll{
         background-image: url(../images/course-enroll-bg2.png);
-        padding-top: 3%;
+        padding-top: 10%;
     }
     .course-enroll .block-title{
         margin-bottom: 6%;
@@ -2664,12 +2668,7 @@ input[type="radio"], input[type="checkbox"] {
     .graduate-work .owl-carousel .owl-item img{
         margin-left: 170px;
     }
-    .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
-        margin-left: 0;
-    }
-    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
-        margin-right: 33px;
-    }
+
     .contacts-adress, .contacts-phone{
         display: inline-block;
         padding: 3% 0;
@@ -2711,12 +2710,56 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 @media all and (max-width: 810px){
-    .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
-        margin-left: 20px;
+    .graduate-work .owl-carousel .owl-prev,
+    .graduate-work .owl-carousel .owl-next{
+        top: -moz-calc(50% - 20px);
+        top: calc(50% - 20px);
+        top: -webkit-calc(50% - 20px);
     }
-    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
-        margin-right: 53px;
+    .graduate-work .owl-carousel .owl-prev{
+        left: -5%;
     }
+    .graduate-work .owl-carousel .owl-next {
+        right: -3%;
+    }
+
+    .graduate-work .owl-carousel .owl-prev:before{
+        background-position: -499px -31px;
+    }
+    .graduate-work .owl-carousel .owl-next:before{
+        background-position: -471px -30px;
+    }
+    .graduate-work .owl-carousel .owl-prev:hover:before{
+        background-position: -307px -29px;
+    }
+    .graduate-work .owl-carousel .owl-next:hover:before{
+        background-position: -282px -30px;
+    }
+    .graduate-work .owl-carousel .owl-prev:before,
+    .graduate-work .owl-carousel .owl-next:before{
+        width: 16px;
+        height: 40px;
+    }
+
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev:before,
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next:before{
+        width: 16px;
+        height: 40px;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev:before{
+        background-position: -355px -30px;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next:before{
+        background-position: -420px -30px;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev:hover:before{
+        background-position: -308px -30px;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next:hover:before{
+        background-position: -282px -30px;
+    }
+
+
 
 }
 
@@ -2726,8 +2769,20 @@ input[type="radio"], input[type="checkbox"] {
         padding: 0 4%;
     }
     .row{ margin: 0 auto; }
+    .course-enroll-items p{
+        font-size: 14px;
+    }
+    .course-enroll-warning-bottom{
+        font-size: 14px;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
+        margin-left: 4%;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
+        margin-right: 40px;
+    }
     .footer-bg .container{
-        padding: 2% 2%;
+        padding: 6% 2% 2% 2%;
     }
     .footer-gotop-link-right{
         padding-bottom: 0;
@@ -2736,10 +2791,16 @@ input[type="radio"], input[type="checkbox"] {
     .gotop{
         padding-top: 0;
     }
-    .course-enroll-items p{
-        font-size: 16px;
-    }
+}
 
+
+@media all and (max-width: 750px){
+    .schedule-link-block:nth-child(1){
+        margin-right: 5%;
+    }
+    .schedule-link-block:nth-child(2) {
+        margin-left: 5%;
+    }
 }
 
 @media all and (max-width: 740px){
@@ -2758,18 +2819,15 @@ input[type="radio"], input[type="checkbox"] {
         margin-left: -moz-calc( 50% - 170px );
         margin-left: calc( 50% - 170px );
     }
-
 }
 
-@media all and (max-width: 750px){
-    .schedule-link-block:nth-child(1){
-        margin-right: 5%;
-    }
-    .schedule-link-block:nth-child(2) {
-        margin-left: 5%;
-    }
-}
 @media all and (max-width: 715px){
+    .about-courses-items-wrapper{
+        font-size: 12px;
+    }
+    .about-courses-right-content-items:last-child{
+        font-size: 12px;
+    }
     .course-enroll-warning-bottom p{
         width: 80%;
     }
@@ -2781,21 +2839,10 @@ input[type="radio"], input[type="checkbox"] {
         margin-right: 1%;
     }
     .graduate-work .owl-carousel .owl-prev{
-        left: -15px;
+        left: -1%;
     }
-    .graduate-work .owl-carousel .owl-next{
-        right: 30px;
-    }
-}
-
-@media all and (max-width: 610px){
-    .banner-learn-more{
-        width: 100%;
-        text-align: center;
-        margin-left: 0;
-    }
-    .banner .learn-more-text{
-        max-width: 100%;
+    .graduate-work .owl-carousel .owl-next {
+        right: 1%;
     }
 }
 
@@ -2822,17 +2869,12 @@ input[type="radio"], input[type="checkbox"] {
         margin-left: 21px;
     }
     .graduate-work .owl-carousel .owl-prev{
-        left: -30px;
+        left: -21%;
     }
-    .graduate-work .owl-carousel .owl-next{
-        right: 9px;
+    .graduate-work .owl-carousel .owl-next {
+        right: -15%;
     }
-    .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
-        margin-left: 5px;
-    }
-    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
-        margin-right: 35px;
-    }
+
     .contacts-adress,
     .contacts-phone{
         display: block;
@@ -2857,6 +2899,19 @@ input[type="radio"], input[type="checkbox"] {
         min-width: 165px;
     }
 }
+
+@media all and (max-width: 610px){
+    .banner-learn-more{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .banner .learn-more-text{
+        max-width: 100%;
+    }
+
+}
+
 
 @media all and (max-width: 590px){
     .schedule-link-block:nth-child(1){
@@ -2884,25 +2939,57 @@ input[type="radio"], input[type="checkbox"] {
     }
     .banner-title-text{
         font-weight: normal;
-        font-size: 26px;
+        font-size: 18px;
     }
     .banner-info-text{
-        font-size: 14px;
+        font-size: 12px;
     }
     .banner-number{
         font-size: 28px;
     }
-    .course-author-left-content p{
-        padding-bottom: 10px;
+    .banner .learn-more-text{
+        height: 45px;
+        font-size: 14px;
+        line-height: 42px;
+    }
+    .about-courses-right-content{
+        padding-left: 3%;
+        padding-right: 0;
+    }
+    .about-courses-right-content-items{
+        width: 100%;
     }
     .cost-it .col-md-4 ul li{
         padding-top: 10px;
+        font-size: 12px;
     }
+    .schedule-link-block-wrapper{
+        margin-bottom: 20%;
+    }
+    .rewiews .item-info-block{
+        width: 80%;
+    }
+    .rewiews .rewiews-text{
+        font-size: 12px;
+    }
+    .contacts .col-md-5{
+        padding-left: 3%;
+        padding-right: 0;
+    }
+    .adress-info p,
+    .contacts-number-info{
+        font-size: 12px;
+    }
+
+
 }
 
 @media all and (max-width: 390px) {
+    .course-author-left-content p{
+        font-size: 12px;
+    }
     .about-courses-items-wrapper{
-        width: 100%;
+        width: 85%;
     }
     .footer-logo-left,
     .footer-gotop-link-right{
@@ -2917,5 +3004,22 @@ input[type="radio"], input[type="checkbox"] {
         width: 100%;
         text-align: center;
     }
+    .graduate-work .owl-carousel .owl-prev{
+        left: -11%;
+    }
+    .graduate-work .owl-carousel .owl-next {
+        right: -4%;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
+        margin-right: 28px;
+    }
 }
 
+@media all and (max-width: 335px) {
+    .graduate-work .owl-carousel .owl-prev{
+        left: -8%;
+    }
+    .graduate-work .owl-carousel .owl-next {
+        right: 0;
+    }
+}
