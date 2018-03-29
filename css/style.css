@@ -802,10 +802,6 @@ input[type='number'] {
     padding-left: 0;
     padding-right: 0;
 }
-.footer-info {
-    display: inline-block;
-    width: 100%;
-}
 
 .gotop {
     font-size: 1.2rem;
@@ -814,25 +810,6 @@ input[type='number'] {
 }
 .footer-bg {
     background-color: #fff;
-}
-.footer-logo {
-    display: inline-block;
-    font-size: 5rem;
-}
-
-.footer-logo .icon-babochka {
-    font-size: 2.5rem;
-    position: relative;
-    top: -19px;
-    color: #fc8692;
-}
-
-.footer-number {
-    display: inline-block;
-    color: #656565;
-    font-size: 3rem;
-    position: relative;
-    top: 32px;
 }
 
 .rewiews-text {
@@ -932,14 +909,6 @@ input[type='number'] {
     overflow: hidden;
 }
 
-.img-footer-foto {
-    position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    max-width: none;
-    width: auto;
-    height: auto;
-}
 .start-earning .col-md-3 {
     width: 29%;
 }
@@ -964,24 +933,6 @@ input[type='number'] {
     padding-bottom: 10px;
 }
 
-.header-bottom {
-}
-
-.footer-arrow {
-    position: fixed;
-    right: 40px;
-    bottom: 40px;
-}
-.icon-arrow-down:hover {
-    background-color: #0a888b;
-}
-
-.footer-arrow .icon-arrow-down {
-    transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-}
 a {
     outline: none;
 }
@@ -1232,11 +1183,6 @@ input[type="radio"], input[type="checkbox"] {
 
 /* Adaptive */
 
-@media (min-width: 1200px) and (max-width: 1300px){
-    .footer-number {
-        padding-right: 60px;
-    }
-}
 
 @media (max-width: 1199px) {
     .rewiews-info {
@@ -1265,9 +1211,6 @@ input[type="radio"], input[type="checkbox"] {
     }
     .start-earning .col-md-3 {
         width: 50%;
-    }
-    .footer-arrow .scroll-bottom {
-        bottom: 31px;
     }
     .block-title {
         padding-top: 40px;
@@ -1348,10 +1291,6 @@ input[type="radio"], input[type="checkbox"] {
     .info-schedule-day {
         padding-left: 2%;
         padding-right: 2%;
-    }
-    .img-footer-foto {
-        position: relative;
-        max-width: 100%;
     }
     .start-earning .row {
         display: block;
@@ -1448,9 +1387,6 @@ input[type="radio"], input[type="checkbox"] {
     }
     .gotop {
         width: 70%;
-    }
-    .footer-number {
-        top: 63px;
     }
     .banner-title-text {
         font-size: 4rem;
@@ -1650,17 +1586,17 @@ input[type="radio"], input[type="checkbox"] {
 .banner-info-text a,
 .banner-learn-more a
 {
-    color: white;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
 }
 .banner-logo{
     font-size: 4.5rem;
-    color: white;
+    color:  #fff;
 }
 .banner-logo .icon-babochka{
     font-size: 2rem;
     top: -14px;
-    color: white;
+    color:  #fff;
 }
 .banner-number{
     font-size: 36px;
@@ -1720,7 +1656,7 @@ input[type="radio"], input[type="checkbox"] {
     text-align: center;
 }
 .banner .learn-more-text:hover{
-    background-color: white;
+    background-color:  #fff;
     color: #e65f83;;
 }
 .banner-learn-more{
@@ -1776,7 +1712,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 .course-author-block .learn-more-text:hover{
     background-color: #f54e60;
-    color: white;
+    color:  #fff;
 }
 
 
@@ -2078,11 +2014,11 @@ input[type="radio"], input[type="checkbox"] {
     margin-top: 38px;
 }
 .submit-form .btn:focus{
-    color: white;
+    color:  #fff;
 }
 
 .submit-form .block-title{
-    color: white;
+    color:  #fff;
     padding-top: 40px;
 }
 
@@ -2146,10 +2082,10 @@ input[type="radio"], input[type="checkbox"] {
 
 .submit-form .btn:hover{
     color: #e65f83;
-    background-color: white;
+    background-color:  #fff;
 }
 .submit-form .form-control{
-    color: white;
+    color:  #fff;
     height: 100%;
     padding-top: 40px;
     padding-left: 0;
@@ -2191,7 +2127,7 @@ input[type="radio"], input[type="checkbox"] {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background-color: white;
+    background-color:  #fff;
     opacity: 0;
     left: 2.5%;
     top: 2%;
@@ -2209,7 +2145,7 @@ input[type="radio"], input[type="checkbox"] {
     margin-left: 16.6%;
 }
 .schedule-link-arrow{
-    background-color: white;
+    background-color:  #fff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -2266,19 +2202,21 @@ input[type="radio"], input[type="checkbox"] {
 
 .graduate-work .owl-carousel .owl-prev {
     position: absolute;
-    left: -60px;
+    left: -58px;
     top: -moz-calc(50% - 54px);
     top: calc(50% - 54px);
     top: -webkit-calc(50% - 54px);
     color: transparent;
+    width: 0;
 }
 .graduate-work .owl-carousel .owl-next {
     position: absolute;
-    right: -70px;
+    right: -30px;
     top: -moz-calc(50% - 54px);
     top: calc(50% - 54px);
     top: -webkit-calc(50% - 54px);
     color: transparent;
+    width: 0;
 }
 .graduate-work .owl-carousel .owl-prev:before,
 .graduate-work .owl-carousel .owl-next:before
@@ -2322,9 +2260,11 @@ input[type="radio"], input[type="checkbox"] {
 }
 .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
     margin-left: 120px;
+    width: 0;
 }
 .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
-    margin-right: 102px;
+    margin-right: 150px;
+    width: 0;
 }
 .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev:before,
 .rewiews .owl-carousel .owl-controls .owl-nav .owl-next:before
@@ -2413,13 +2353,17 @@ input[type="radio"], input[type="checkbox"] {
     padding-left: 36px;
 }
 /*.......................... footer ..........................*/
-
-
-.footer-info{
-    margin-top: 20px;
-    margin-bottom: 23px;
+.footer-bg .container{
+    padding-top: 23px;
 }
-
+.footer-logo-left{
+    float: left;
+}
+.footer-gotop-link-right{
+    float: right;
+    padding-top: 50px;
+    padding-bottom: 14px;
+}
 .adress-title{
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
@@ -2462,7 +2406,7 @@ input[type="radio"], input[type="checkbox"] {
     display: block;
 }
 .contacts-number a{
-    color: white;
+    color:  #fff;
 }
 .contacts-number a:hover{
     text-decoration: none;
@@ -2502,10 +2446,7 @@ input[type="radio"], input[type="checkbox"] {
     display: inline-block;
 }
 .gotop{
-    padding-top: 20px;
-}
-.footer-number{
-    padding-top: 41px;
+    padding-top: 16px;
 }
 
 .error {
@@ -2616,17 +2557,9 @@ input[type="radio"], input[type="checkbox"] {
         margin-left: 20px;
     }
     .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
-        margin-right: 0;
+        margin-right: 50px;
     }
-    .gotop{
-        padding-top: 0;
-    }
-    .footer-number{
-        padding-top: 22px;
-    }
-    .footer-info{
-        margin: 0;
-    }
+
 }
 
 @media all and (max-width: 1109px){
@@ -2644,11 +2577,18 @@ input[type="radio"], input[type="checkbox"] {
         left: -40px;
     }
     .graduate-work .owl-carousel .owl-next {
-        right: -47px;
+        right: -6px;
     }
 }
 
 @media all and (max-width: 990px){
+    .banner-title-text{
+        font-size: 30px;
+        width: 65%;
+    }
+    .banner-info-text{
+        font-size: 20px;
+    }
     .course-author-block .block-title{
         text-align: center;
     }
@@ -2725,12 +2665,10 @@ input[type="radio"], input[type="checkbox"] {
         margin-left: 170px;
     }
     .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
-        position: absolute;
-        left: 0;
+        margin-left: 0;
     }
     .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
-        position: absolute;
-        right: 0;
+        margin-right: 33px;
     }
     .contacts-adress, .contacts-phone{
         display: inline-block;
@@ -2761,13 +2699,68 @@ input[type="radio"], input[type="checkbox"] {
 
 @media all and (max-width: 870px){
     .rewiews .item-info-block{
-        width: 80%;
+        width: 85%;
         float: none;
     }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
+        margin-left: 55px;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
+        margin-right: 85px;
+    }
 }
+
+@media all and (max-width: 810px){
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
+        margin-left: 20px;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
+        margin-right: 53px;
+    }
+
+}
+
+
 @media all and (max-width: 770px){
+    .banner .container{
+        padding: 0 4%;
+    }
     .row{ margin: 0 auto; }
+    .footer-bg .container{
+        padding: 2% 2%;
+    }
+    .footer-gotop-link-right{
+        padding-bottom: 0;
+        padding-top: 34px;
+    }
+    .gotop{
+        padding-top: 0;
+    }
+    .course-enroll-items p{
+        font-size: 16px;
+    }
+
 }
+
+@media all and (max-width: 740px){
+    .banner-title-text{
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+    }
+    .banner-info-text{
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .banner-learn-more{
+        margin-left: -webkit-calc( 50% - 170px );
+        margin-left: -moz-calc( 50% - 170px );
+        margin-left: calc( 50% - 170px );
+    }
+
+}
+
 @media all and (max-width: 750px){
     .schedule-link-block:nth-child(1){
         margin-right: 5%;
@@ -2777,13 +2770,50 @@ input[type="radio"], input[type="checkbox"] {
     }
 }
 @media all and (max-width: 715px){
+    .course-enroll-warning-bottom p{
+        width: 80%;
+    }
     .course-enroll-warning-bottom{
-             padding-left: 3%;
-         }
+        padding-left: 3%;
+    }
     .course-enroll-warning-bottom:before{
-        margin-left: -webkit-calc(50% - 17px);
-        margin-left: -moz-calc(50% - 17px);
-        margin-left: calc(50% - 17px);
+        vertical-align: top;
+        margin-right: 1%;
+    }
+    .graduate-work .owl-carousel .owl-prev{
+        left: -15px;
+    }
+    .graduate-work .owl-carousel .owl-next{
+        right: 30px;
+    }
+}
+
+@media all and (max-width: 610px){
+    .banner-learn-more{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .banner .learn-more-text{
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width: 630px){
+    .course-enroll-items .course-enroll-left-item p,
+    .course-enroll-items .course-enroll-right-item p{
+        width: 85%;
+    }
+    .course-enroll-items .course-enroll-left-item,
+    .course-enroll-items .course-enroll-right-item{
+        padding: 0 0 0 18% !important;
+    }
+    .course-enroll-items .course-enroll-left-item:after,
+    .course-enroll-items .course-enroll-right-item:before{
+        left: 3%;
+    }
+    .about-courses-right-content-items{
+        margin-left: 0;
     }
     .graduate-work .carousel{
         width: 260px;
@@ -2791,13 +2821,40 @@ input[type="radio"], input[type="checkbox"] {
     .graduate-work .owl-carousel .owl-item img{
         margin-left: 21px;
     }
-}
-
-@media all and (max-width: 630px){
+    .graduate-work .owl-carousel .owl-prev{
+        left: -30px;
+    }
+    .graduate-work .owl-carousel .owl-next{
+        right: 9px;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-prev{
+        margin-left: 5px;
+    }
+    .rewiews .owl-carousel .owl-controls .owl-nav .owl-next{
+        margin-right: 35px;
+    }
     .contacts-adress,
     .contacts-phone{
-        display: inline-block;
+        display: block;
         float: none;
+    }
+    .footer-gotop-link-right{
+        padding: 0;
+    }
+    .goTop-link{
+        position: relative;
+    }
+    .goTop-link img{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .goTop-link p{
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    .gotop p{
+        min-width: 165px;
     }
 }
 
@@ -2811,5 +2868,54 @@ input[type="radio"], input[type="checkbox"] {
     .rewiews .item-info-block{
         padding: 15px;
     }
-
+    .submit-form .important-text{
+        line-height: 1.2;
+    }
 }
+
+@media all and (max-width: 570px){
+    .banner-number{
+        display: block;
+        float: none !important;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .banner-title-text{
+        font-weight: normal;
+        font-size: 26px;
+    }
+    .banner-info-text{
+        font-size: 14px;
+    }
+    .banner-number{
+        font-size: 28px;
+    }
+    .course-author-left-content p{
+        padding-bottom: 10px;
+    }
+    .cost-it .col-md-4 ul li{
+        padding-top: 10px;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .about-courses-items-wrapper{
+        width: 100%;
+    }
+    .footer-logo-left,
+    .footer-gotop-link-right{
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .goTop-link img{
+        left: 25%;
+    }
+    .gotop{
+        width: 100%;
+        text-align: center;
+    }
+}
+

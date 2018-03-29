@@ -31,30 +31,12 @@ jQuery(document).ready(function() {
         nav: true,
         center: true,
         autoWidth: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            990: {
-                items: 2
-            },
-            1200: {
-                items: 3
-            }
-        }
-    });
+        items: 3
+     });
     jQuery('#rewiews').owlCarousel({
         loop: true,
         nav: true,
-        autoplay: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            1200: {
-                items: 1
-            }
-        }
+        items: 1
     });
 
 });
