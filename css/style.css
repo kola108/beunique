@@ -170,7 +170,6 @@ img {
 .banner-learn-more a {
     display: inline-block;
     color: #141414;
-    width: 100%;
     margin-bottom: 30px;
 }
 .banner-learn-more a:hover {
@@ -1551,8 +1550,8 @@ input[type="radio"], input[type="checkbox"] {
     border: 1px solid #fff;
 }
 .wrapper--btn--center {
-    text-align: center;
-}
+      text-align: center;
+  }
 
 /* ..................................new style css.................................. */
 
@@ -1588,6 +1587,9 @@ input[type="radio"], input[type="checkbox"] {
 {
     color: #fff;
     font-family: 'Roboto', sans-serif;
+}
+.banner .banner-learn-more a{
+    width: 100%;
 }
 .banner-logo{
     font-size: 4.5rem;
@@ -1627,7 +1629,6 @@ input[type="radio"], input[type="checkbox"] {
     text-align: left;
     font-size: 24px;
     padding: 78px 0 105px 0;
-    /*padding: 6.7% 0 9% 0;*/
 }
 .banner-info-text:before{
     content: '';
@@ -1873,6 +1874,10 @@ input[type="radio"], input[type="checkbox"] {
     text-align: left;
     margin-bottom: 31px;
 }
+
+.about-courses-items-wrapper{
+    padding-left: 60px;
+}
 .about-courses-right-content-items{
     font-size: 16px;
     font-family: "HelveticaNeueCyr", sans-serif;
@@ -1881,6 +1886,9 @@ input[type="radio"], input[type="checkbox"] {
     margin-bottom: 32px;
     display: inline-block;
     position: relative;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 .about-courses-right-content-items:last-child{
     margin-bottom: 0;
@@ -1896,19 +1904,16 @@ input[type="radio"], input[type="checkbox"] {
 .about-courses-right-content-items:nth-child(3) .about-courses-red-text{
     font-weight: bold;
 }
-.about-courses-items-wrapper{
-    display: inline-block;
-}
 
 .about-courses-right-content-items:before{
     content: '';
-    display: inline-block;
-    vertical-align: top;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .about-courses-right-content-items:nth-child(2):before{
     width: 35px;
     height: 44px;
-    margin-right: 29px;
     background-image: url(../images/sprite.png);
     background-position: -146px 0;
     background-repeat: no-repeat;
@@ -1916,7 +1921,6 @@ input[type="radio"], input[type="checkbox"] {
 .about-courses-right-content-items:nth-child(3):before{
     width: 35px;
     height: 39px;
-    margin-right: 31px;
     background-image: url(../images/sprite.png);
     background-position: -181px 0;
     background-repeat: no-repeat;
@@ -1924,7 +1928,6 @@ input[type="radio"], input[type="checkbox"] {
 .about-courses-right-content-items:nth-child(4):before{
     width: 40px;
     height: 40px;
-    margin-right: 25px;
     background-image: url(../images/sprite.png);
     background-position: -217px 0;
     background-repeat: no-repeat;
@@ -2456,7 +2459,7 @@ input[type="radio"], input[type="checkbox"] {
 /*................................my media quaries................................*/
 
 @media all and (max-width: 1199px){
-    .banner-learn-more{
+    .banner .banner-learn-more{
         margin-bottom: 10%;
     }
     .banner-title-text{
@@ -2470,7 +2473,7 @@ input[type="radio"], input[type="checkbox"] {
         padding-top: 10%;
     }
     .course-author-block .registered--btn{
-        margin-top: 10%;
+        margin: 30px 0 10% 0;
     }
     .course-enroll{
         padding-top: 40px;
@@ -2517,11 +2520,11 @@ input[type="radio"], input[type="checkbox"] {
     .about-courses-img-box{
         margin-top: 22%;
     }
-    .about-courses-items-wrapper{
-        width: 85%;
-    }
     .cost-it .container{
         padding-bottom: 10%;
+    }
+    .cost-it .manicure-title{
+        padding-bottom: 20px;
     }
     .cost-it .block-title{
         padding-top: 10%;
@@ -2581,7 +2584,7 @@ input[type="radio"], input[type="checkbox"] {
     }
 }
 
-@media all and (max-width: 990px){
+@media all and (max-width: 991px){
     .banner-title-text{
         font-size: 30px;
         width: 65%;
@@ -2591,6 +2594,9 @@ input[type="radio"], input[type="checkbox"] {
     }
     .course-author-block .block-title{
         text-align: center;
+    }
+    .course-author-left-content{
+        padding-bottom: 20px;
     }
     .course-author-left-content p{
         padding-bottom: 10px;
@@ -2603,43 +2609,38 @@ input[type="radio"], input[type="checkbox"] {
     .course-enroll .block-title{
         margin-bottom: 6%;
     }
-    .course-enroll-items{
-        margin-bottom: 0;
+    .course-enroll-warning-bottom{
+        max-width: 100%;
+        padding-left: 10px;
     }
-    .course-enroll-items .course-enroll-left-item,
-    .course-enroll-items .course-enroll-right-item
-    {
+    .course-enroll-items .course-enroll-left-item:after,
+    .course-enroll-items .course-enroll-right-item:before{
+        left: 10px!important;
+        position: absolute;
+        margin: 0;
+    }
+    .course-enroll .course-enroll-items .course-enroll-left-item,
+    .course-enroll .course-enroll-items .course-enroll-right-item{
         width: 100%;
-        padding-left: 20% !important;
+        max-width: 100%;
+        padding: 0 0 30px 65px!important;
+        margin: 0;
         text-align: left;
         position: relative;
     }
-    .course-enroll-items .course-enroll-left-item:after,
-    .course-enroll-items .course-enroll-right-item:before
-    {
-        position: absolute;
-        left: 10%;
-        margin: 0;
-    }
-    .course-enroll-items p{
+    .course-enroll .course-enroll-items .course-enroll-left-item p,
+    .course-enroll .course-enroll-items .course-enroll-right-item p{
+        line-height: 19px;
         max-width: 100%!important;
-        padding-top: 10px;
-        margin-bottom: 6%;
+    }
+    .course-enroll-items{
+        margin: 0;
     }
     .about-courses-img-box{
         margin-top: 0;
     }
     .about-courses-right-content .block-title{
         text-align: center;
-    }
-    .about-courses-right-content-items:before{
-        margin-right: 0!important;
-    }
-
-    .about-courses-right-content-items{
-        margin-bottom: 2%;
-        margin-left: 12%;
-        width: 90%;
     }
     .cost-it .manicure-block{
         margin-top: 60px;
@@ -2758,9 +2759,6 @@ input[type="radio"], input[type="checkbox"] {
     .rewiews .owl-carousel .owl-controls .owl-nav .owl-next:hover:before{
         background-position: -282px -30px;
     }
-
-
-
 }
 
 
@@ -2769,6 +2767,9 @@ input[type="radio"], input[type="checkbox"] {
         padding: 0 4%;
     }
     .row{ margin: 0 auto; }
+    .course-enroll .container{
+        margin-left: 20px;
+    }
     .course-enroll-items p{
         font-size: 14px;
     }
@@ -2814,7 +2815,7 @@ input[type="radio"], input[type="checkbox"] {
         text-align: center;
         font-size: 18px;
     }
-    .banner-learn-more{
+    .banner .banner-learn-more{
         margin-left: -webkit-calc( 50% - 170px );
         margin-left: -moz-calc( 50% - 170px );
         margin-left: calc( 50% - 170px );
@@ -2823,20 +2824,17 @@ input[type="radio"], input[type="checkbox"] {
 
 @media all and (max-width: 715px){
     .about-courses-items-wrapper{
-        font-size: 12px;
+        font-size: 14px;
     }
     .about-courses-right-content-items:last-child{
-        font-size: 12px;
+        font-size: 14px;
     }
     .course-enroll-warning-bottom p{
         width: 80%;
     }
-    .course-enroll-warning-bottom{
-        padding-left: 3%;
-    }
     .course-enroll-warning-bottom:before{
         vertical-align: top;
-        margin-right: 1%;
+        margin-right: 20px;
     }
     .graduate-work .owl-carousel .owl-prev{
         left: -1%;
@@ -2859,9 +2857,6 @@ input[type="radio"], input[type="checkbox"] {
     .course-enroll-items .course-enroll-right-item:before{
         left: 3%;
     }
-    .about-courses-right-content-items{
-        margin-left: 0;
-    }
     .graduate-work .carousel{
         width: 260px;
     }
@@ -2875,10 +2870,46 @@ input[type="radio"], input[type="checkbox"] {
         right: -15%;
     }
 
-    .contacts-adress,
-    .contacts-phone{
+    .contacts .contacts-adress,
+    .contacts .contacts-phone{
         display: block;
         float: none;
+    }
+    .contacts .contacts-adress p,
+    .contacts .contacts-phone p{
+        width: 100%;
+        max-width: 80%;
+    }
+    .contacts .contacts-number-info{
+        width: 100%;
+        max-width: 100%;
+    }
+    .contacts .adress-info:before{
+        width: 17px;
+        height: 23px;
+        margin-right: 10px;
+        background-position: 0 0;
+        -moz-background-size: 360px auto;
+        -o-background-size: 360px auto;
+        background-size: 360px auto;
+    }
+    .contacts .contacts-number:before{
+        width: 19px;
+        height: 18px;
+        margin-right: 10px;
+        background-position: -44px -1px;
+        -moz-background-size: 360px auto;
+        -o-background-size: 360px auto;
+        background-size: 360px auto;
+    }
+    .contacts .contacts-number a{
+        font-size: 26px;
+    }
+    .adress-title{
+        padding-bottom: 20px;
+    }
+    .contacts-adress{
+        padding-bottom: 0;
     }
     .footer-gotop-link-right{
         padding: 0;
@@ -2901,15 +2932,15 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 @media all and (max-width: 610px){
-    .banner-learn-more{
+    .banner .banner-learn-more{
         width: 100%;
         text-align: center;
         margin-left: 0;
     }
     .banner .learn-more-text{
-        max-width: 100%;
+        margin: 0 auto;
+        max-width: 65%;
     }
-
 }
 
 
@@ -2929,6 +2960,27 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 @media all and (max-width: 570px){
+    .banner .header-info{
+        padding-top: 20px;
+    }
+    .banner-info-text:before {
+        width: 17px;
+        height: 23px;
+        margin-right: 10px;
+        background-position: 0 0;
+        -moz-background-size: 360px auto;
+        -o-background-size: 360px auto;
+        background-size: 360px auto;
+    }
+    .banner-number:before {
+        width: 19px;
+        height: 18px;
+        margin-right: 10px;
+        background-position: -44px -1px;
+        -moz-background-size: 360px auto;
+        -o-background-size: 360px auto;
+        background-size: 360px auto;
+    }
     .banner-number{
         display: block;
         float: none !important;
@@ -2942,7 +2994,7 @@ input[type="radio"], input[type="checkbox"] {
         font-size: 18px;
     }
     .banner-info-text{
-        font-size: 12px;
+        font-size: 14px;
     }
     .banner-number{
         font-size: 28px;
@@ -2955,9 +3007,6 @@ input[type="radio"], input[type="checkbox"] {
     .about-courses-right-content{
         padding-left: 3%;
         padding-right: 0;
-    }
-    .about-courses-right-content-items{
-        width: 100%;
     }
     .cost-it .col-md-4 ul li{
         padding-top: 10px;
@@ -2978,18 +3027,16 @@ input[type="radio"], input[type="checkbox"] {
     }
     .adress-info p,
     .contacts-number-info{
-        font-size: 12px;
+        font-size: 14px;
     }
 
 
 }
 
 @media all and (max-width: 390px) {
+
     .course-author-left-content p{
         font-size: 12px;
-    }
-    .about-courses-items-wrapper{
-        width: 85%;
     }
     .footer-logo-left,
     .footer-gotop-link-right{
@@ -3023,3 +3070,6 @@ input[type="radio"], input[type="checkbox"] {
         right: 0;
     }
 }
+
+
+

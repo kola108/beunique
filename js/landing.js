@@ -30,12 +30,14 @@ jQuery(document).ready(function() {
         loop: true,
         nav: true,
         center: true,
+        autoplay: true,
         autoWidth: true,
         items: 3
      });
     jQuery('#rewiews').owlCarousel({
         loop: true,
         nav: true,
+        autoplay: true,
         items: 1
     });
 
